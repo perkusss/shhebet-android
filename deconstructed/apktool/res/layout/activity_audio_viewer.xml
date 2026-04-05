@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/tool_bar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" app:contentInsetEnd="0.0dp" app:contentInsetStart="0.0dp" app:contentInsetStartWithNavigation="0.0dp" app:popupTheme="@style/Widget.App.PopupMenu.Overflow" app:title="@string/send_audio" />
+    <RelativeLayout android:id="@id/photo_relative_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tool_bar">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/audios_to_be_sent_viewpager" android:layout_width="match_parent" android:layout_height="90.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:choiceMode="singleChoice" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        <RelativeLayout android:id="@id/photo_frame_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/audios_to_be_sent_viewpager">
+            <include android:id="@id/audio_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" android:layout_centerInParent="true" layout="@layout/audio_viewer_item" />
+            <RelativeLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/add_caption_layout" android:background="@android:color/black" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="46.0dp" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/emoji_btn" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" app:srcCompat="@drawable/ic_outline_emoji_emotions_32" app:tint="?colorPrimary" />
+                <github.ankushsachdeva.emojicon.EmojiconEditText android:textColor="@android:color/white" android:textColorHint="@android:color/darker_gray" android:id="@id/add_caption_et" android:background="@android:color/transparent" android:paddingBottom="6.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="24.0dp" android:hint="@string/add_caption" android:maxLines="5" android:scrollHorizontally="false" android:maxLength="1024" android:inputType="textLongMessage|textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/color_cursor" android:paddingStart="4.0dp" android:paddingEnd="4.0dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

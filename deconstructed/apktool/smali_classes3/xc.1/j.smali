@@ -1,0 +1,40 @@
+.class public final synthetic Lxc/j;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LRe/e;
+
+
+# instance fields
+.field public final synthetic a:Lcom/nandbox/view/myprofile/MyProfileActivity;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/nandbox/view/myprofile/MyProfileActivity;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lxc/j;->a:Lcom/nandbox/view/myprofile/MyProfileActivity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lxc/j;->a:Lcom/nandbox/view/myprofile/MyProfileActivity;
+
+    check-cast p1, Lo9/t;
+
+    invoke-static {v0, p1}, Lcom/nandbox/view/myprofile/MyProfileActivity;->W(Lcom/nandbox/view/myprofile/MyProfileActivity;Lo9/t;)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method

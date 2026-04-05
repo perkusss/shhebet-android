@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="?attr/nand_toolbar_textColorPrimary"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M3,13L11,13L11,3L3,3L3,13ZM3,21L11,21L11,15L3,15L3,21ZM13,21L21,21L21,11L13,11L13,21ZM13,3L13,9L21,9L21,3L13,3Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

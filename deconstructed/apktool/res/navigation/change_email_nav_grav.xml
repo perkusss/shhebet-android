@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/change_email_nav_grav.xml" app:startDestination="@id/changeEmailConfirmationFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/change_email" android:name="com.nandbox.view.settings.changeEmail.ChangeEmailConfirmationFragment" android:id="@id/changeEmailConfirmationFragment">
+        <action android:id="@id/action_changeEmailConfirmationFragment_to_changeEmailInputFragment" app:destination="@id/changeEmailInputFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="@string/change_email" android:name="com.nandbox.view.settings.changeEmail.ChangeEmailInputFragment" android:id="@id/changeEmailInputFragment">
+        <action android:id="@id/action_changeEmailInputFragment_to_changeEmailVerificationFragment" app:destination="@id/changeEmailVerificationFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="@string/change_email" android:name="com.nandbox.view.settings.changeEmail.ChangeEmailVerificationFragment" android:id="@id/changeEmailVerificationFragment">
+        <action android:id="@id/action_changeEmailVerificationFragment_to_changeEmailInputFragment" app:destination="@id/changeEmailInputFragment" />
+    </fragment>
+</navigation>

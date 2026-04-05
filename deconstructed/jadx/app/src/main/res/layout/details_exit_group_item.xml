@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/exit_group_card"
+    android:paddingTop="@dimen/list_item_padding"
+    android:paddingBottom="16dp"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/exit_group_view"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+        <Button
+            android:textColor="?attr/colorOnError"
+            android:id="@+id/exit_group_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leave_x"
+            android:backgroundTint="?attr/colorError"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+.class public Lr9/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public a:Lcom/nandbox/x/t/Sticker;
+
+
+# direct methods
+.method public constructor <init>(Lcom/nandbox/x/t/Sticker;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lr9/a;->a:Lcom/nandbox/x/t/Sticker;
+
+    .line 5
+    .line 6
+    return-void
+.end method

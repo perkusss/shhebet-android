@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_horizontal" android:id="@id/my_profile_main_list" android:background="?colorSurface" android:paddingBottom="@dimen/margin_unit" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/toolbar_container" android:background="?nand_colorM3Surface" android:layout_width="0.0px" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/tool_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:popupTheme="@style/Widget.App.PopupMenu.Overflow" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView android:layout_width="0.0px" android:layout_height="0.0px" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_container">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_dynamic_fields_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" />
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/sendingInfo_progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/submit_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:text="@string/update" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

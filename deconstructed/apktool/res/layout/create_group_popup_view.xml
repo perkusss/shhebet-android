@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:id="@id/create_group_title" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/select_group_type" android:fontFamily="@string/font_roboto_medium" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/chat_group_view" android:background="?selectableItemBackground" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/create_group_title">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:layout_marginStart="24.0dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp" app:srcCompat="@drawable/ic_baseline_group_black_18dp" />
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_group" android:fontFamily="@string/font_roboto_medium" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnSurfaceVariant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_creation_desc" android:fontFamily="@string/font_roboto" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/channel_group_view" android:background="?selectableItemBackground" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/chat_group_view">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:layout_marginStart="24.0dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp" app:srcCompat="@drawable/ic_outline_rss_feed_black_18dp" />
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/channel_group" android:fontFamily="@string/font_roboto_medium" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnSurfaceVariant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/channel_creation_desc" android:fontFamily="@string/font_roboto" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    </LinearLayout>
+</RelativeLayout>

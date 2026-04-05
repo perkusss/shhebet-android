@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference android:entries="@array/entry_settings_color_modes" android:title="@string/Theme_mode" android:key="color_mode" android:defaultValue="@string/cons_default_color_mode" android:entryValues="@array/entryvalues_settings_color_modes" app:iconSpaceReserved="false" />
+</PreferenceScreen>

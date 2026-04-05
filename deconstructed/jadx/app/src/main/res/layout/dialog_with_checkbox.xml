@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="21dp"
+    android:paddingBottom="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <TextView
+        android:textSize="20sp"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Messages"
+        android:fontFamily="@string/font_roboto_medium"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:id="@+id/txt_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Are you sure to delete 15 messages"
+        android:fontFamily="@string/font_roboto"/>
+    <CheckBox
+        android:textSize="16sp"
+        android:textColor="@color/colorOnSurfaceVariant"
+        android:id="@+id/ck_optional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Delete for Lenovo"
+        android:fontFamily="@string/font_roboto"/>
+    <LinearLayout
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            style="@style/Widget.Material3.Button.TextButton"/>
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:layout_marginStart="4dp"
+            style="@style/Widget.Material3.Button.TextButton"/>
+    </LinearLayout>
+</LinearLayout>

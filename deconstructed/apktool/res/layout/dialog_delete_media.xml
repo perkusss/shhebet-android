@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?colorSurfaceContainerHigh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="40.0dp" android:layout_marginEnd="40.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center_vertical" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" android:indeterminate="true" android:layout_marginStart="24.0dp" />
+    <TextView android:textSize="16.0sp" android:textColor="?colorOnSurfaceVariant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="20.0dp" android:text="@string/deleting_items" android:fontFamily="@string/font_roboto" android:layout_marginStart="12.0dp" android:layout_marginEnd="24.0dp" />
+</LinearLayout>

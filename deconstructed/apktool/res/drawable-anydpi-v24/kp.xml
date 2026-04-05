@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="15.0dp" android:width="21.0dp" android:viewportWidth="21.0" android:viewportHeight="15.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$kp__0" android:pathData="M0,0h21v15h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$kp__1" android:pathData="M0,0h21v3h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$kp__2" android:pathData="M0,12h21v3h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$kp__3" android:pathData="M0,3h21v9h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$kp__4" android:pathData="M0,4h21v7h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$kp__5" android:pathData="M7.5,10C6.1193,10 5,8.8807 5,7.5C5,6.1193 6.1193,5 7.5,5C8.8807,5 10,6.1193 10,7.5C10,8.8807 8.8807,10 7.5,10ZM7.5,8.5032L8.9695,9.5225L8.4541,7.81L9.8776,6.7275L8.0897,6.6884L7.5,5L6.9103,6.6884L5.1224,6.7275L6.5459,7.81L6.0305,9.5225L7.5,8.5032Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

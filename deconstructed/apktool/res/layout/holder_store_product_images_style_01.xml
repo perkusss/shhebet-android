@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?colorSurface" app:cardCornerRadius="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="?colorSurface" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rcy_images" android:layout_width="0.0px" android:layout_height="0.0px" android:layout_marginTop="16.0dp" app:layout_constraintBottom_toTopOf="@id/ind_images" app:layout_constraintDimensionRatio="1.2:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginBottom="16.0dp" />
+        <com.nandbox.view.util.customViews.EmojiPageIndicator android:gravity="center" android:id="@id/ind_images" android:layout_width="match_parent" android:layout_height="37.0dp" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rcy_images" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

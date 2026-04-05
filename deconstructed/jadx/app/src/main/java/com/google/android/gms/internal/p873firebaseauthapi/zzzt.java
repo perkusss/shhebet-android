@@ -1,0 +1,22 @@
+package com.google.android.gms.internal.p873firebaseauthapi;
+
+import p765t6.C12263m;
+
+/* JADX INFO: loaded from: classes2.dex */
+final class zzzt implements zzadm<zzafi> {
+    private final /* synthetic */ zzacf zza;
+
+    zzzt(zzyl zzylVar, zzacf zzacfVar) {
+        this.zza = zzacfVar;
+    }
+
+    @Override // com.google.android.gms.internal.p873firebaseauthapi.zzadn
+    public final void zza(String str) {
+        this.zza.zza(C12263m.m50145a(str));
+    }
+
+    @Override // com.google.android.gms.internal.p873firebaseauthapi.zzadm
+    public final /* synthetic */ void zza(zzafi zzafiVar) {
+        this.zza.zza(zzafiVar);
+    }
+}

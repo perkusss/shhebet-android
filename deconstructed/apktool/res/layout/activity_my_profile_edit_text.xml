@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tool_bar" layout="@layout/tool_bar" />
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/default_space" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/tool_bar">
+        <EditText android:textSize="16.0sp" android:id="@id/user_name_edit_text" android:background="@android:color/transparent" android:paddingTop="@dimen/default_space" android:paddingBottom="@dimen/default_space" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/your_name" android:maxLines="1" android:singleLine="true" android:inputType="textLongMessage|textCapSentences|textMultiLine" android:fontFamily="@string/font_roboto" />
+        <EditText android:textSize="16.0sp" android:id="@id/quote_edit_text" android:background="@android:color/transparent" android:paddingTop="@dimen/default_space" android:paddingBottom="@dimen/default_space" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/your_name" android:maxLines="5" android:inputType="textLongMessage|textCapSentences|textMultiLine" android:fontFamily="@string/font_roboto" />
+        <View android:background="?colorPrimary" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="14.0sp" android:textColor="?colorError" android:id="@id/error_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/font_roboto" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="14.0sp" android:textColor="?colorOnSurfaceVariant" android:id="@id/desc_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_space" android:layout_marginBottom="@dimen/default_space" android:text="@string/name_friend_text_hint" android:fontFamily="@string/font_roboto" android:layout_alignParentStart="true" />
+    </LinearLayout>
+</RelativeLayout>

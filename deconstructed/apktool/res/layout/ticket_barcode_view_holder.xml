@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/img_barcode" android:layout_width="235.0dp" android:layout_height="40.0dp" android:layout_marginTop="10.0dp" />
+    <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/txt_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:text="Dr-Ryan-3784" android:fontFamily="@string/font_roboto" />
+</LinearLayout>

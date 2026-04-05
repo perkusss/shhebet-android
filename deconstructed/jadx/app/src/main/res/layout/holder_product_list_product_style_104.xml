@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface"
+        android:ellipsize="end"
+        android:id="@+id/txt_name"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@string/font_roboto_medium"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintDimensionRatio="22:10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"
+        app:shapeAppearance="@style/ShapeAppearance.CurvedAll16DP"/>
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/div_separator"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:dividerColor="?attr/colorOutlineVariant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        app:layout_goneMarginTop="24dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

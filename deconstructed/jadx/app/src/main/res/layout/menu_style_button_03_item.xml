@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardElevation="0dp"
+    app:contentPadding="0dp">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/back"
+        style="@style/Widget.Material3.Button.TonalButton"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="?attr/colorOnError"
+        android:gravity="center"
+        android:layout_gravity="end|top"
+        android:id="@+id/unread_count_text"
+        android:background="@drawable/circle_red_bg"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:minWidth="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"/>
+</androidx.cardview.widget.CardView>

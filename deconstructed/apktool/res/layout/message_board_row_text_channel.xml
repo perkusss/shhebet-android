@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/root_view" android:background="?colorSurfaceContainerLowest" android:paddingTop="@dimen/channel_message_item_padding_top" android:focusable="true" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:emojicon="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/body_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/header_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+            <include android:id="@id/header_view_item" android:layout_width="match_parent" android:layout_height="@dimen/channel_header_height" layout="@layout/message_board_header_row_channel" />
+        </LinearLayout>
+        <FrameLayout android:orientation="vertical" android:id="@id/content_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/message_board_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+                    <github.ankushsachdeva.emojicon.EmojiconTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="16.0sp" android:textColor="?colorOnSurface" android:textColorLink="?nand_link_color" android:autoLink="none" android:linksClickable="true" android:layout_gravity="left" android:id="@id/message_board_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dp" android:minWidth="110.0dp" android:text="@string/app_name" android:fontFamily="@string/font_roboto" emojicon:emojiconSize="@dimen/message_emoji_size" />
+                    <TextView android:textSize="16.0sp" android:textColor="?nand_link_color" android:id="@id/read_more_btn" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/read_more" android:fontFamily="@string/font_roboto_medium" />
+                </LinearLayout>
+                <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/big_message_board_view" android:background="@color/colorSecondary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="200.0dp" emojicon:cardCornerRadius="0.0dp" emojicon:cardElevation="0.0dp">
+                    <github.ankushsachdeva.emojicon.EmojiconTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="22.0sp" android:textColor="@color/colorBigText" android:textColorLink="@color/colorBigText" android:gravity="center" android:autoLink="none" android:linksClickable="true" android:layout_gravity="center" android:id="@id/big_message_board_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dp" android:text="@string/app_name" android:fontFamily="@string/font_roboto_medium" emojicon:emojiconSize="@dimen/message_emoji_size" />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout android:gravity="center" android:id="@id/url_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                    <include android:id="@id/url_view_item" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/url_text_view" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <com.nandbox.view.util.chatMenu.ChatMenuLayout android:id="@id/inline_menu_view" android:background="?colorSurfaceContainerLow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="3.0dp" android:paddingEnd="3.0dp" />
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@id/footer_view_item" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/message_board_footer_row_channel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

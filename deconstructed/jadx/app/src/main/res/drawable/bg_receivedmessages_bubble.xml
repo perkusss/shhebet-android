@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10dp"
+    android:paddingBottom="1dp">
+    <item
+        android:left="26dp"
+        android:right="16dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorM3SurfaceDim"/>
+        </shape>
+    </item>
+    <item
+        android:left="26dp"
+        android:right="16dp"
+        android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorMSurfaceContainerBright"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="top|left"
+        android:height="16dp"
+        android:width="22dp"
+        android:left="4dp">
+        <vector
+            android:height="16dp"
+            android:width="16dp"
+            android:viewportWidth="22"
+            android:viewportHeight="16">
+            <path
+                android:fillColor="@color/colorMSurfaceContainerBright"
+                android:pathData="M 0.693 3.726 C 4.309 6.228 6 11.933 6 16 L 22 16 L 22 0 L 2 0 C 0.139 0 -0.621 1.799 0.674 3.707"/>
+        </vector>
+    </item>
+    <item
+        android:gravity="left"
+        android:width="16dp"
+        android:left="10dp"
+        android:top="16dp"
+        android:bottom="17dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorMSurfaceContainerBright"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="bottom|left"
+        android:height="16dp"
+        android:width="16dp"
+        android:left="10dp"
+        android:bottom="0dp">
+        <vector
+            android:height="16dp"
+            android:width="16dp"
+            android:viewportWidth="14"
+            android:viewportHeight="14">
+            <path
+                android:fillColor="@color/colorM3SurfaceDim"
+                android:pathData="M 0 0 V 2 A 14 14 0 0 0 14 14 H 16 L 16 0 Z"/>
+        </vector>
+    </item>
+    <item
+        android:gravity="bottom|left"
+        android:height="16dp"
+        android:width="16dp"
+        android:left="10dp"
+        android:bottom="1dp">
+        <vector
+            android:height="16dp"
+            android:width="16dp"
+            android:viewportWidth="14"
+            android:viewportHeight="14">
+            <path
+                android:fillColor="@color/colorMSurfaceContainerBright"
+                android:pathData="M 0 0 V 2 A 14 14 0 0 0 14 14 H 16 L 16 0 Z"/>
+        </vector>
+    </item>
+    <item
+        android:gravity="top|right"
+        android:height="16dp"
+        android:width="16dp">
+        <vector
+            android:height="16dp"
+            android:width="16dp"
+            android:viewportWidth="14"
+            android:viewportHeight="14">
+            <path
+                android:fillColor="@color/colorMSurfaceContainerBright"
+                android:pathData="M 14 16 V 14 A 14 14 0 0 0 2 0 H 0 L 0 16 Z"/>
+        </vector>
+    </item>
+    <item
+        android:gravity="right"
+        android:width="16dp"
+        android:top="16dp"
+        android:bottom="17dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorMSurfaceContainerBright"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="bottom|right"
+        android:height="16dp"
+        android:width="16dp">
+        <vector
+            android:height="16dp"
+            android:width="16dp"
+            android:viewportWidth="16"
+            android:viewportHeight="16">
+            <path
+                android:fillColor="@color/colorM3SurfaceDim"
+                android:pathData="M 16 0 V 2 A 14 14 0 0 1 2 16 H 0 L 0 0 Z"/>
+        </vector>
+    </item>
+    <item
+        android:gravity="bottom|right"
+        android:height="16dp"
+        android:width="16dp"
+        android:bottom="1dp">
+        <vector
+            android:height="16dp"
+            android:width="16dp"
+            android:viewportWidth="16"
+            android:viewportHeight="16">
+            <path
+                android:fillColor="@color/colorMSurfaceContainerBright"
+                android:pathData="M 16 0 V 2 A 14 14 0 0 1 2 16 H 0 L 0 0 Z"/>
+        </vector>
+    </item>
+</layer-list>

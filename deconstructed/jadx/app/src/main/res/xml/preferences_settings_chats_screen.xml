@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:key="pref_screen_chats">
+    <CheckBoxPreference
+        android:title="@string/enter_is_send"
+        android:key="chats_enter_is_send"
+        android:defaultValue="@string/cons_chats_enter_is_send"
+        app:iconSpaceReserved="false"/>
+    <CheckBoxPreference
+        android:title="@string/auto_play_gif"
+        android:key="chats_auto_play_gif"
+        android:defaultValue="@string/cons_chats_auto_play_gif"
+        app:iconSpaceReserved="false"/>
+    <Preference
+        android:title="@string/backup"
+        android:key="chats_backup"
+        app:iconSpaceReserved="false">
+        <intent
+            android:targetPackage="@string/app_id"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nandbox.view.backup.BackupActivity"/>
+    </Preference>
+    <PreferenceCategory
+        android:title="@string/chat_history"
+        android:key="pref_chat_history"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:title="@string/delete_all_chats"
+            android:key="pref_delete_all_chats"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

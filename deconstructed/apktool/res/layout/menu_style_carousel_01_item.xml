@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:layout_marginTop="4.0dp" android:layout_marginRight="4.0dp" android:layout_marginBottom="4.0dp" android:layout_marginHorizontal="4.0dp" android:layout_marginVertical="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/headline_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/menu_style_headline_01_item" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/main_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="196.0dp" android:choiceMode="singleChoice" />
+            <TextView android:textSize="14.0sp" android:layout_gravity="end" android:id="@id/trailing_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:fontFamily="@string/font_roboto_medium" android:layout_marginEnd="16.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="?colorOnError" android:gravity="center" android:layout_gravity="end|top" android:id="@id/unread_count_text" android:background="@drawable/circle_red_bg" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dp" android:minWidth="25.0dp" android:fontFamily="sans-serif-medium" android:paddingStart="6.0dp" android:paddingEnd="6.0dp" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:gravity="start|center_vertical"
+        android:id="@+id/btn_contact_dialog_call"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_call"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        style="@style/contactDialogButton"/>
+    <Button
+        android:gravity="start|center_vertical"
+        android:id="@+id/btn_contact_dialog_save"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_to_contacts"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        style="@style/contactDialogButton"/>
+    <Button
+        android:gravity="start|center_vertical"
+        android:id="@+id/btn_contact_dialog_copy"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copy"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        style="@style/contactDialogButton"/>
+</LinearLayout>

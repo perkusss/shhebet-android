@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/abc_popup_background_mtrl_mult"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="@dimen/market_page_sticker_preview_width"
+        android:layout_height="@dimen/market_page_sticker_preview_width"
+        android:layout_margin="@dimen/half_margin_unit">
+        <com.nandbox.view.util.customViews.CustomGifView
+            android:layout_gravity="center"
+            android:id="@+id/img_loading"
+            android:visibility="gone"
+            android:layout_width="@dimen/market_page_loading_width"
+            android:layout_height="@dimen/market_page_loading_width"
+            app:gif="@raw/loading"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/img_sticker_png"
+            android:visibility="gone"
+            android:layout_width="@dimen/market_page_sticker_preview_width"
+            android:layout_height="@dimen/market_page_sticker_preview_width"/>
+        <com.nandbox.view.util.customViews.CustomGifView
+            android:layout_gravity="center"
+            android:id="@+id/img_sticker_gif"
+            android:visibility="gone"
+            android:layout_width="@dimen/market_page_sticker_preview_width"
+            android:layout_height="@dimen/market_page_sticker_preview_width"/>
+    </FrameLayout>
+</LinearLayout>

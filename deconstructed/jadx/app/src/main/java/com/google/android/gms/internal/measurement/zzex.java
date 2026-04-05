@@ -1,0 +1,28 @@
+package com.google.android.gms.internal.measurement;
+
+import android.os.Bundle;
+import com.google.android.gms.common.internal.C6923t;
+import com.google.android.gms.internal.measurement.zzdy;
+
+/* JADX INFO: loaded from: classes2.dex */
+final class zzex extends zzdy.zza {
+    private final /* synthetic */ zzdk zzc;
+    private final /* synthetic */ zzdy zzd;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    zzex(zzdy zzdyVar, zzdk zzdkVar) {
+        super(zzdyVar);
+        this.zzc = zzdkVar;
+        this.zzd = zzdyVar;
+    }
+
+    @Override // com.google.android.gms.internal.measurement.zzdy.zza
+    final void zza() {
+        ((zzdj) C6923t.m29818m(this.zzd.zzj)).getSessionId(this.zzc);
+    }
+
+    @Override // com.google.android.gms.internal.measurement.zzdy.zza
+    protected final void zzb() {
+        this.zzc.zza((Bundle) null);
+    }
+}

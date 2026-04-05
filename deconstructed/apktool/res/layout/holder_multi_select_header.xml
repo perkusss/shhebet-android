@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="34.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?colorPrimary" android:gravity="center_vertical" android:id="@id/txt_header_name" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/contacts" android:paddingStart="16.0dp" />
+</FrameLayout>

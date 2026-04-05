@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="15.0dp" android:width="21.0dp" android:viewportWidth="21.0" android:viewportHeight="15.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ag__0" android:pathData="M0,0h21v15h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffff" android:pathData="M9.5,6.5a1,1.5 0,1 0,2 0a1,1.5 0,1 0,-2 0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.5" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ag__1" android:pathData="M0,0h21v15h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ag__2" android:pathData="M0,0l21,0l-10.5,15z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M0,0l21,0l-10.5,15z" />
+        <path android:fillColor="@drawable/$ag__3" android:pathData="M10.5,8.25l-1.7221,1.9075l0.1311,-2.5665l-2.5665,0.1311l1.9075,-1.7221l-2.25,-2l2.909,0.5l-0.409,-3l2,2.5l2,-2.5l-0.409,3l2.909,-0.5l-2.25,2l1.9075,1.7221l-2.5665,-0.1311l0.1311,2.5665z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0l21,0l-10.5,15z" />
+        <path android:fillColor="@drawable/$ag__4" android:pathData="M0,6h21v4h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0l21,0l-10.5,15z" />
+        <path android:fillColor="@drawable/$ag__5" android:pathData="M0,10h21v5h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    </group>
+</vector>

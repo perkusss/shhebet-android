@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="?selectableItemBackground" android:layout_width="72.0dp" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="6.0dp">
+        <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@id/group_image" android:layout_width="54.0dp" android:layout_height="54.0dp" app:srcCompat="@drawable/ic_contact_130dp" />
+        <ImageView android:layout_gravity="end|bottom" android:id="@id/img_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_check_circle_white_24dp" />
+    </FrameLayout>
+    <github.ankushsachdeva.emojicon.EmojiconTextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/txt_group_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="2" android:fontFamily="@string/font_roboto_medium" android:textDirection="firstStrong" />
+</LinearLayout>

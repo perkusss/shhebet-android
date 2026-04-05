@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/address_nav_grav.xml" app:startDestination="@id/addressListFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/shipping_address" android:name="com.nandbox.view.addressManager.addressList.AddressListFragment" android:id="@id/addressListFragment">
+        <action android:id="@id/action_addressListFragment_to_addressPickLocationFragment" app:destination="@id/addressPickLocationFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_addressListFragment_to_addressInputFragment" app:destination="@id/addressInputFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="fragment_address_pick_location" android:name="com.nandbox.view.addressManager.addressPickLocation.AddressPickLocationFragment" android:id="@id/addressPickLocationFragment">
+        <action android:id="@id/action_addressPickLocationFragment_to_addressInputFragment" app:destination="@id/addressInputFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@id/addressListFragment" />
+    </fragment>
+    <fragment android:label="AddressInputFragment" android:name="com.nandbox.view.addressManager.addressInput.AddressInputFragment" android:id="@id/addressInputFragment">
+        <action android:id="@id/action_addressInputFragment_to_changeAddressPickLocationFragment" app:destination="@id/changeAddressPickLocationFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@id/addressInputFragment" />
+    </fragment>
+    <fragment android:label="ChangeAddressPickLocationFragment" android:name="com.nandbox.view.addressManager.addressPickLocation.ChangeAddressPickLocationFragment" android:id="@id/changeAddressPickLocationFragment" />
+</navigation>

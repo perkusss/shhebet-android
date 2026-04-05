@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:paddingBottom="@dimen/details_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?colorSurface" app:cardUseCompatPadding="true" style="@style/NoCornersCardViewStyle">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/main_container" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="?colorOnSurface" android:id="@id/qr_code_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dp" android:text="@string/qr_code" android:fontFamily="@string/font_roboto" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/qr_code_image" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginEnd="16.0dp" app:layout_constraintBottom_toBottomOf="@id/qr_code_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/qr_code_text" app:layout_goneMarginTop="16.0dp" app:srcCompat="@drawable/ic_qr_code_24dp" app:tint="?colorOnSurfaceVariant" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

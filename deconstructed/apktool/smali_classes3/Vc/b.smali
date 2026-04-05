@@ -1,0 +1,36 @@
+.class public final synthetic LVc/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/nandbox/view/settings/changeEmail/ChangeEmailConfirmationFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/nandbox/view/settings/changeEmail/ChangeEmailConfirmationFragment;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LVc/b;->a:Lcom/nandbox/view/settings/changeEmail/ChangeEmailConfirmationFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, LVc/b;->a:Lcom/nandbox/view/settings/changeEmail/ChangeEmailConfirmationFragment;
+
+    invoke-static {v0, p1}, Lcom/nandbox/view/settings/changeEmail/ChangeEmailConfirmationFragment;->k3(Lcom/nandbox/view/settings/changeEmail/ChangeEmailConfirmationFragment;Landroid/view/View;)V
+
+    return-void
+.end method

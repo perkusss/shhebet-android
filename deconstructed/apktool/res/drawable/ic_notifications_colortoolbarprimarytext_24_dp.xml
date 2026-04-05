@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="?nand_toolbar_textColorPrimary" android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffff" android:pathData="M12,21.5C13.1,21.5 14,20.6 14,19.5L10,19.5C10,20.6 10.89,21.5 12,21.5ZM18,15.5L18,10.5C18,7.43 16.36,4.86 13.5,4.18L13.5,3.5C13.5,2.67 12.83,2 12,2C11.17,2 10.5,2.67 10.5,3.5L10.5,4.18C7.63,4.86 6,7.42 6,10.5L6,15.5L4,17.5L4,18.5L20,18.5L20,17.5L18,15.5Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

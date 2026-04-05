@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/header_view" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_toStartOf="@id/option_view" android:layout_alignParentStart="true" android:layout_alignParentEnd="false">
+        <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@id/header_icon" android:visibility="visible" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginEnd="7.0dp" app:srcCompat="@drawable/ic_contact_130dp" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <github.ankushsachdeva.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="?colorOnSurface" android:ellipsize="end" android:gravity="start|center" android:id="@id/header_name" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test" android:lines="1" android:fontFamily="@string/font_roboto_medium" android:textDirection="locale" app:emojiconSize="16.0sp" />
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/message_status_view" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp">
+                <ImageView android:layout_gravity="center" android:id="@id/market_campaign_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="0.0dp" android:layout_marginEnd="2.0dp" app:srcCompat="@drawable/ic_win" />
+                <ImageView android:layout_gravity="center" android:id="@id/message_status_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="0.0dp" android:layout_marginEnd="2.0dp" app:srcCompat="@drawable/ic_outline_access_time_18dp" app:tint="?colorOnSurfaceVariant" />
+                <TextView android:textSize="@dimen/chat_time_text_size" android:textStyle="normal" android:textColor="?colorOnSurfaceVariant" android:layout_gravity="center" android:id="@id/message_board_date" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10:00 pm" android:singleLine="true" />
+                <ImageView android:layout_gravity="center" android:id="@id/edit_message_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7.0dp" android:layout_marginEnd="2.0dp" />
+                <ImageView android:layout_gravity="center" android:id="@id/instance_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7.0dp" android:layout_marginEnd="2.0dp" app:srcCompat="@drawable/ic_flash_blue_24" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/option_view" android:background="?selectableItemBackgroundBorderless" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_centerInParent="true" android:layout_alignParentStart="false" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_more_vert_gray_24dp" />
+    </LinearLayout>
+</RelativeLayout>

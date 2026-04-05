@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/normal_view" android:background="?selectableItemBackgroundBorderless" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:layout_centerInParent="true">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/title_icon" android:visibility="visible" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_centerVertical="true" android:layout_marginStart="0.0dp" android:layout_marginEnd="10.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_toStartOf="@null" android:layout_toEndOf="@id/title_icon">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <github.ankushsachdeva.emojicon.EmojiconTextView android:textSize="20.0dp" android:textColor="?nand_toolbar_textColorPrimary" android:ellipsize="end" android:layout_gravity="start" android:id="@id/title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="@string/font_roboto_medium" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center" android:id="@id/group_chat_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0dp" android:textColor="?nand_toolbar_textColorSecondary" android:id="@id/member_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="@string/font_roboto" android:layout_marginStart="0.0dp" android:layout_marginEnd="2.0dp" />
+                <TextView android:textSize="14.0dp" android:textColor="?nand_toolbar_textColorSecondary" android:id="@id/lbl_member_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/members_count" android:singleLine="true" android:fontFamily="@string/font_roboto" android:layout_marginStart="0.0dp" android:layout_marginEnd="8.0dp" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:id="@id/contact_chat_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center_vertical" android:id="@id/my_profile_icon" android:visibility="gone" android:duplicateParentState="true" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_marginLeft="0.0dp" android:layout_marginRight="8.0dp" android:layout_marginStart="0.0dp" android:layout_marginEnd="8.0dp" app:srcCompat="@drawable/ic_contact_130dp" />
+                <TextView android:textSize="14.0dp" android:textColor="?nand_toolbar_textColorSecondary" android:layout_gravity="center_vertical" android:id="@id/my_profile_relation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="2" android:fontFamily="@string/font_roboto" android:layout_marginStart="0.0dp" android:layout_marginEnd="8.0dp" />
+                <TextView android:textSize="12.0dp" android:textColor="?colorOnError" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/unread_message_count" android:background="@drawable/small_curved_red_button" android:paddingTop="2.0dp" android:paddingBottom="2.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="@string/font_roboto" android:paddingStart="4.0dp" android:paddingEnd="4.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

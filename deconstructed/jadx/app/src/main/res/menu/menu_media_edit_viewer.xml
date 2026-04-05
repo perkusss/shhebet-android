@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/menu_edit">
+        <item
+            android:icon="@drawable/ic_crop_rotate_24dp"
+            android:id="@+id/action_crop_rotate"
+            android:orderInCategory="1"
+            android:title="@string/crop_rotate"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:icon="@drawable/ic_media_edit_24dp"
+            android:id="@+id/action_edit"
+            android:orderInCategory="2"
+            android:title="@string/edit"
+            app:showAsAction="ifRoom"/>
+    </group>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_no_items" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_space">
+        <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center_horizontal" android:id="@id/img_no_items" android:background="?colorSurfaceContainer" android:layout_width="90.0dp" android:layout_height="90.0dp" android:scaleType="center" app:shapeAppearance="@style/ShapeAppearance.Circle" app:srcCompat="@drawable/ic_no_order_details_48dp" app:tint="?colorOnSurfaceVariant" />
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:gravity="center" android:id="@id/no_message_title" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/Unavailable" android:fontFamily="@string/font_roboto_medium" />
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnSurfaceVariant" android:gravity="center" android:id="@id/no_message_desc" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="@string/no_orders_description" android:fontFamily="@string/font_roboto" />
+    </LinearLayout>
+</FrameLayout>

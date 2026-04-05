@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sticky_post_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:elevation="5dp"
+        app:cardBackgroundColor="@color/colorMErrorContainer"
+        app:cardCornerRadius="43dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+            <TextView
+                android:textSize="22sp"
+                android:textColor="@color/colorOnMErrorContainer"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/sticky_post_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:fontFamily="@string/font_roboto_medium"/>
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@color/colorOnMErrorContainer"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/sticky_post_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/points"
+                android:lines="1"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

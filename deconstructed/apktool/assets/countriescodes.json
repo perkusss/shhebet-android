@@ -1,0 +1,1483 @@
+[
+  {
+    "ISOCode": "US",
+    "ISOCode3": "USA",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "TZ",
+    "ISOCode3": "TZA",
+    "Dial": "255"
+  },
+  {
+    "ISOCode": "RE",
+    "ISOCode3": "REU",
+    "Dial": "262"
+  },
+  {
+    "ISOCode": "SH",
+    "ISOCode3": "SHN",
+    "Dial": "290"
+  },
+  {
+    "ISOCode": "PT",
+    "ISOCode3": "PRT",
+    "Dial": "351",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "FI",
+    "ISOCode3": "FIN",
+    "Dial": "358",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "IT",
+    "ISOCode3": "ITA",
+    "Dial": "39",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "CH",
+    "ISOCode3": "CHE",
+    "Dial": "41",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "GB",
+    "ISOCode3": "GBR",
+    "Dial": "44",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "NO",
+    "ISOCode3": "NOR",
+    "Dial": "47",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "FK",
+    "ISOCode3": "FLK",
+    "Dial": "500"
+  },
+  {
+    "ISOCode": "BQ",
+    "ISOCode3": "BES",
+    "Dial": "599"
+  },
+  {
+    "ISOCode": "AU",
+    "ISOCode3": "AUS",
+    "Dial": "61"
+  },
+  {
+    "ISOCode": "AQ",
+    "ISOCode3": "ATA",
+    "Dial": "672"
+  },
+  {
+    "ISOCode": "RU",
+    "ISOCode3": "RUS",
+    "Dial": "7"
+  },
+  {
+    "ISOCode": "TR",
+    "ISOCode3": "TUR",
+    "Dial": "90"
+  },
+  {
+    "ISOCode": "IN",
+    "ISOCode3": "IND",
+    "Dial": "91"
+  },
+  {
+    "ISOCode": "PK",
+    "ISOCode3": "PAK",
+    "Dial": "92"
+  },
+  {
+    "ISOCode": "GE",
+    "ISOCode3": "GEO",
+    "Dial": "995"
+  },
+  {
+    "ISOCode": "AF",
+    "ISOCode3": "AFG",
+    "Dial": "93"
+  },
+  {
+    "ISOCode": "AL",
+    "ISOCode3": "ALB",
+    "Dial": "355",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "DZ",
+    "ISOCode3": "DZA",
+    "Dial": "213"
+  },
+  {
+    "ISOCode": "AS",
+    "ISOCode3": "ASM",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "AD",
+    "ISOCode3": "AND",
+    "Dial": "376",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "AO",
+    "ISOCode3": "AGO",
+    "Dial": "244"
+  },
+  {
+    "ISOCode": "AI",
+    "ISOCode3": "AIA",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "AG",
+    "ISOCode3": "ATG",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "AR",
+    "ISOCode3": "ARG",
+    "Dial": "54"
+  },
+  {
+    "ISOCode": "AM",
+    "ISOCode3": "ARM",
+    "Dial": "374",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "AW",
+    "ISOCode3": "ABW",
+    "Dial": "297"
+  },
+  {
+    "ISOCode": "AT",
+    "ISOCode3": "AUT",
+    "Dial": "43",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "AZ",
+    "ISOCode3": "AZE",
+    "Dial": "994"
+  },
+  {
+    "ISOCode": "BS",
+    "ISOCode3": "BHS",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "BH",
+    "ISOCode3": "BHR",
+    "Dial": "973"
+  },
+  {
+    "ISOCode": "BD",
+    "ISOCode3": "BGD",
+    "Dial": "880"
+  },
+  {
+    "ISOCode": "BB",
+    "ISOCode3": "BRB",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "BY",
+    "ISOCode3": "BLR",
+    "Dial": "375",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "BE",
+    "ISOCode3": "BEL",
+    "Dial": "32",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "BZ",
+    "ISOCode3": "BLZ",
+    "Dial": "501"
+  },
+  {
+    "ISOCode": "BJ",
+    "ISOCode3": "BEN",
+    "Dial": "229"
+  },
+  {
+    "ISOCode": "BM",
+    "ISOCode3": "BMU",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "BT",
+    "ISOCode3": "BTN",
+    "Dial": "975"
+  },
+  {
+    "ISOCode": "BO",
+    "ISOCode3": "BOL",
+    "Dial": "591"
+  },
+  {
+    "ISOCode": "BA",
+    "ISOCode3": "BIH",
+    "Dial": "387",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "BW",
+    "ISOCode3": "BWA",
+    "Dial": "267"
+  },
+  {
+    "ISOCode": "BV",
+    "ISOCode3": "BVT",
+    "Dial": "47",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "BR",
+    "ISOCode3": "BRA",
+    "Dial": "55"
+  },
+  {
+    "ISOCode": "IO",
+    "ISOCode3": "IOT",
+    "Dial": "246"
+  },
+  {
+    "ISOCode": "BN",
+    "ISOCode3": "BRN",
+    "Dial": "673"
+  },
+  {
+    "ISOCode": "BG",
+    "ISOCode3": "BGR",
+    "Dial": "359",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "BF",
+    "ISOCode3": "BFA",
+    "Dial": "226"
+  },
+  {
+    "ISOCode": "BI",
+    "ISOCode3": "BDI",
+    "Dial": "257"
+  },
+  {
+    "ISOCode": "KH",
+    "ISOCode3": "KHM",
+    "Dial": "855"
+  },
+  {
+    "ISOCode": "CM",
+    "ISOCode3": "CMR",
+    "Dial": "237"
+  },
+  {
+    "ISOCode": "CA",
+    "ISOCode3": "CAN",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "CV",
+    "ISOCode3": "CPV",
+    "Dial": "238"
+  },
+  {
+    "ISOCode": "KY",
+    "ISOCode3": "CYM",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "CF",
+    "ISOCode3": "CAF",
+    "Dial": "236"
+  },
+  {
+    "ISOCode": "TD",
+    "ISOCode3": "TCD",
+    "Dial": "235"
+  },
+  {
+    "ISOCode": "CL",
+    "ISOCode3": "CHL",
+    "Dial": "56"
+  },
+  {
+    "ISOCode": "CN",
+    "ISOCode3": "CHN",
+    "Dial": "86"
+  },
+  {
+    "ISOCode": "CX",
+    "ISOCode3": "CXR",
+    "Dial": "61"
+  },
+  {
+    "ISOCode": "CC",
+    "ISOCode3": "CCK",
+    "Dial": "61"
+  },
+  {
+    "ISOCode": "CO",
+    "ISOCode3": "COL",
+    "Dial": "57"
+  },
+  {
+    "ISOCode": "KM",
+    "ISOCode3": "COM",
+    "Dial": "269"
+  },
+  {
+    "ISOCode": "CG",
+    "ISOCode3": "COG",
+    "Dial": "242"
+  },
+  {
+    "ISOCode": "CD",
+    "ISOCode3": "COD",
+    "Dial": "243"
+  },
+  {
+    "ISOCode": "CK",
+    "ISOCode3": "COK",
+    "Dial": "682"
+  },
+  {
+    "ISOCode": "CR",
+    "ISOCode3": "CRI",
+    "Dial": "506"
+  },
+  {
+    "ISOCode": "HR",
+    "ISOCode3": "HRV",
+    "Dial": "385",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "CU",
+    "ISOCode3": "CUB",
+    "Dial": "53"
+  },
+  {
+    "ISOCode": "CW",
+    "ISOCode3": "CUW",
+    "Dial": "599"
+  },
+  {
+    "ISOCode": "CY",
+    "ISOCode3": "CYP",
+    "Dial": "357",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "CZ",
+    "ISOCode3": "CZE",
+    "Dial": "420",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "CI",
+    "ISOCode3": "CIV",
+    "Dial": "225"
+  },
+  {
+    "ISOCode": "DK",
+    "ISOCode3": "DNK",
+    "Dial": "45",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "DJ",
+    "ISOCode3": "DJI",
+    "Dial": "253"
+  },
+  {
+    "ISOCode": "DM",
+    "ISOCode3": "DMA",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "DO",
+    "ISOCode3": "DOM",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "EC",
+    "ISOCode3": "ECU",
+    "Dial": "593"
+  },
+  {
+    "ISOCode": "EG",
+    "ISOCode3": "EGY",
+    "Dial": "20"
+  },
+  {
+    "ISOCode": "SV",
+    "ISOCode3": "SLV",
+    "Dial": "503"
+  },
+  {
+    "ISOCode": "GQ",
+    "ISOCode3": "GNQ",
+    "Dial": "240"
+  },
+  {
+    "ISOCode": "ER",
+    "ISOCode3": "ERI",
+    "Dial": "291"
+  },
+  {
+    "ISOCode": "EE",
+    "ISOCode3": "EST",
+    "Dial": "372",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "ET",
+    "ISOCode3": "ETH",
+    "Dial": "251"
+  },
+  {
+    "ISOCode": "FO",
+    "ISOCode3": "FRO",
+    "Dial": "298"
+  },
+  {
+    "ISOCode": "FJ",
+    "ISOCode3": "FJI",
+    "Dial": "679"
+  },
+  {
+    "ISOCode": "FR",
+    "ISOCode3": "FRA",
+    "Dial": "33",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "GF",
+    "ISOCode3": "GUF",
+    "Dial": "594"
+  },
+  {
+    "ISOCode": "PF",
+    "ISOCode3": "PYF",
+    "Dial": "689"
+  },
+  {
+    "ISOCode": "TF",
+    "ISOCode3": "ATF",
+    "Dial": "262"
+  },
+  {
+    "ISOCode": "GA",
+    "ISOCode3": "GAB",
+    "Dial": "241"
+  },
+  {
+    "ISOCode": "GM",
+    "ISOCode3": "GMB",
+    "Dial": "220"
+  },
+  {
+    "ISOCode": "DE",
+    "ISOCode3": "DEU",
+    "Dial": "49",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "GH",
+    "ISOCode3": "GHA",
+    "Dial": "233"
+  },
+  {
+    "ISOCode": "GI",
+    "ISOCode3": "GIB",
+    "Dial": "350",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "GR",
+    "ISOCode3": "GRC",
+    "Dial": "30",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "GL",
+    "ISOCode3": "GRL",
+    "Dial": "299"
+  },
+  {
+    "ISOCode": "GD",
+    "ISOCode3": "GRD",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "GP",
+    "ISOCode3": "GLP",
+    "Dial": "590"
+  },
+  {
+    "ISOCode": "GU",
+    "ISOCode3": "GUM",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "GT",
+    "ISOCode3": "GTM",
+    "Dial": "502"
+  },
+  {
+    "ISOCode": "GG",
+    "ISOCode3": "GGY",
+    "Dial": "44",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "GN",
+    "ISOCode3": "GIN",
+    "Dial": "224"
+  },
+  {
+    "ISOCode": "GW",
+    "ISOCode3": "GNB",
+    "Dial": "245"
+  },
+  {
+    "ISOCode": "GY",
+    "ISOCode3": "GUY",
+    "Dial": "592"
+  },
+  {
+    "ISOCode": "HT",
+    "ISOCode3": "HTI",
+    "Dial": "509"
+  },
+  {
+    "ISOCode": "HM",
+    "ISOCode3": "HMD",
+    "Dial": "672"
+  },
+  {
+    "ISOCode": "VA",
+    "ISOCode3": "VAT",
+    "Dial": "39",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "HN",
+    "ISOCode3": "HND",
+    "Dial": "504"
+  },
+  {
+    "ISOCode": "HK",
+    "ISOCode3": "HKG",
+    "Dial": "852"
+  },
+  {
+    "ISOCode": "HU",
+    "ISOCode3": "HUN",
+    "Dial": "36",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "IS",
+    "ISOCode3": "ISL",
+    "Dial": "354",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "ID",
+    "ISOCode3": "IDN",
+    "Dial": "62"
+  },
+  {
+    "ISOCode": "IR",
+    "ISOCode3": "IRN",
+    "Dial": "98"
+  },
+  {
+    "ISOCode": "IQ",
+    "ISOCode3": "IRQ",
+    "Dial": "964"
+  },
+  {
+    "ISOCode": "IE",
+    "ISOCode3": "IRL",
+    "Dial": "353",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "IM",
+    "ISOCode3": "IMN",
+    "Dial": "44",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "IL",
+    "ISOCode3": "ISR",
+    "Dial": "972"
+  },
+  {
+    "ISOCode": "JM",
+    "ISOCode3": "JAM",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "JP",
+    "ISOCode3": "JPN",
+    "Dial": "81",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "JE",
+    "ISOCode3": "JEY",
+    "Dial": "44",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "JO",
+    "ISOCode3": "JOR",
+    "Dial": "962"
+  },
+  {
+    "ISOCode": "KZ",
+    "ISOCode3": "KAZ",
+    "Dial": "7"
+  },
+  {
+    "ISOCode": "KE",
+    "ISOCode3": "KEN",
+    "Dial": "254"
+  },
+  {
+    "ISOCode": "KI",
+    "ISOCode3": "KIR",
+    "Dial": "686"
+  },
+  {
+    "ISOCode": "KP",
+    "ISOCode3": "PRK",
+    "Dial": "850"
+  },
+  {
+    "ISOCode": "KR",
+    "ISOCode3": "KOR",
+    "Dial": "82",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "KW",
+    "ISOCode3": "KWT",
+    "Dial": "965"
+  },
+  {
+    "ISOCode": "KG",
+    "ISOCode3": "KGZ",
+    "Dial": "996"
+  },
+  {
+    "ISOCode": "LA",
+    "ISOCode3": "LAO",
+    "Dial": "856"
+  },
+  {
+    "ISOCode": "LV",
+    "ISOCode3": "LVA",
+    "Dial": "371",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "LB",
+    "ISOCode3": "LBN",
+    "Dial": "961"
+  },
+  {
+    "ISOCode": "LS",
+    "ISOCode3": "LSO",
+    "Dial": "266"
+  },
+  {
+    "ISOCode": "LR",
+    "ISOCode3": "LBR",
+    "Dial": "231"
+  },
+  {
+    "ISOCode": "LY",
+    "ISOCode3": "LBY",
+    "Dial": "218"
+  },
+  {
+    "ISOCode": "LI",
+    "ISOCode3": "LIE",
+    "Dial": "423",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "LT",
+    "ISOCode3": "LTU",
+    "Dial": "370",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "LU",
+    "ISOCode3": "LUX",
+    "Dial": "352",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "MO",
+    "ISOCode3": "MAC",
+    "Dial": "853"
+  },
+  {
+    "ISOCode": "MK",
+    "ISOCode3": "MKD",
+    "Dial": "389",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "MG",
+    "ISOCode3": "MDG",
+    "Dial": "261"
+  },
+  {
+    "ISOCode": "MW",
+    "ISOCode3": "MWI",
+    "Dial": "265"
+  },
+  {
+    "ISOCode": "MY",
+    "ISOCode3": "MYS",
+    "Dial": "60"
+  },
+  {
+    "ISOCode": "MV",
+    "ISOCode3": "MDV",
+    "Dial": "960"
+  },
+  {
+    "ISOCode": "ML",
+    "ISOCode3": "MLI",
+    "Dial": "223"
+  },
+  {
+    "ISOCode": "MT",
+    "ISOCode3": "MLT",
+    "Dial": "356",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "MH",
+    "ISOCode3": "MHL",
+    "Dial": "692"
+  },
+  {
+    "ISOCode": "MQ",
+    "ISOCode3": "MTQ",
+    "Dial": "596"
+  },
+  {
+    "ISOCode": "MR",
+    "ISOCode3": "MRT",
+    "Dial": "222"
+  },
+  {
+    "ISOCode": "MU",
+    "ISOCode3": "MUS",
+    "Dial": "230"
+  },
+  {
+    "ISOCode": "YT",
+    "ISOCode3": "MYT",
+    "Dial": "262"
+  },
+  {
+    "ISOCode": "MX",
+    "ISOCode3": "MEX",
+    "Dial": "52"
+  },
+  {
+    "ISOCode": "FM",
+    "ISOCode3": "FSM",
+    "Dial": "691"
+  },
+  {
+    "ISOCode": "MD",
+    "ISOCode3": "MDA",
+    "Dial": "373",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "MC",
+    "ISOCode3": "MCO",
+    "Dial": "377",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "MN",
+    "ISOCode3": "MNG",
+    "Dial": "976"
+  },
+  {
+    "ISOCode": "ME",
+    "ISOCode3": "MNE",
+    "Dial": "382",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "MS",
+    "ISOCode3": "MSR",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "MA",
+    "ISOCode3": "MAR",
+    "Dial": "212"
+  },
+  {
+    "ISOCode": "MZ",
+    "ISOCode3": "MOZ",
+    "Dial": "258"
+  },
+  {
+    "ISOCode": "MM",
+    "ISOCode3": "MMR",
+    "Dial": "95"
+  },
+  {
+    "ISOCode": "NA",
+    "ISOCode3": "NAM",
+    "Dial": "264"
+  },
+  {
+    "ISOCode": "NR",
+    "ISOCode3": "NRU",
+    "Dial": "674"
+  },
+  {
+    "ISOCode": "NP",
+    "ISOCode3": "NPL",
+    "Dial": "977"
+  },
+  {
+    "ISOCode": "NL",
+    "ISOCode3": "NLD",
+    "Dial": "31",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "NC",
+    "ISOCode3": "NCL",
+    "Dial": "687"
+  },
+  {
+    "ISOCode": "NZ",
+    "ISOCode3": "NZL",
+    "Dial": "64"
+  },
+  {
+    "ISOCode": "NI",
+    "ISOCode3": "NIC",
+    "Dial": "505"
+  },
+  {
+    "ISOCode": "NE",
+    "ISOCode3": "NER",
+    "Dial": "227"
+  },
+  {
+    "ISOCode": "NG",
+    "ISOCode3": "NGA",
+    "Dial": "234"
+  },
+  {
+    "ISOCode": "NU",
+    "ISOCode3": "NIU",
+    "Dial": "683"
+  },
+  {
+    "ISOCode": "NF",
+    "ISOCode3": "NFK",
+    "Dial": "672"
+  },
+  {
+    "ISOCode": "MP",
+    "ISOCode3": "MNP",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "OM",
+    "ISOCode3": "OMN",
+    "Dial": "968"
+  },
+  {
+    "ISOCode": "PW",
+    "ISOCode3": "PLW",
+    "Dial": "680"
+  },
+  {
+    "ISOCode": "PS",
+    "ISOCode3": "PSE",
+    "Dial": "970"
+  },
+  {
+    "ISOCode": "PA",
+    "ISOCode3": "PAN",
+    "Dial": "507"
+  },
+  {
+    "ISOCode": "PG",
+    "ISOCode3": "PNG",
+    "Dial": "675"
+  },
+  {
+    "ISOCode": "PY",
+    "ISOCode3": "PRY",
+    "Dial": "595"
+  },
+  {
+    "ISOCode": "PE",
+    "ISOCode3": "PER",
+    "Dial": "51"
+  },
+  {
+    "ISOCode": "PH",
+    "ISOCode3": "PHL",
+    "Dial": "63"
+  },
+  {
+    "ISOCode": "PN",
+    "ISOCode3": "PCN",
+    "Dial": "870"
+  },
+  {
+    "ISOCode": "PL",
+    "ISOCode3": "POL",
+    "Dial": "48",
+    "setting": {
+      "postal": 1
+    }
+  },
+
+  {
+    "ISOCode": "PR",
+    "ISOCode3": "PRI",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "QA",
+    "ISOCode3": "QAT",
+    "Dial": "974"
+  },
+  {
+    "ISOCode": "RO",
+    "ISOCode3": "ROU",
+    "Dial": "40",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "RW",
+    "ISOCode3": "RWA",
+    "Dial": "250"
+  },
+  {
+    "ISOCode": "BL",
+    "ISOCode3": "BLM",
+    "Dial": "590"
+  },
+  {
+    "ISOCode": "KN",
+    "ISOCode3": "KNA",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "LC",
+    "ISOCode3": "LCA",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "MF",
+    "ISOCode3": "MAF",
+    "Dial": "590"
+  },
+  {
+    "ISOCode": "PM",
+    "ISOCode3": "SPM",
+    "Dial": "508"
+  },
+  {
+    "ISOCode": "VC",
+    "ISOCode3": "VCT",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "WS",
+    "ISOCode3": "WSM",
+    "Dial": "685"
+  },
+  {
+    "ISOCode": "SM",
+    "ISOCode3": "SMR",
+    "Dial": "378",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "ST",
+    "ISOCode3": "STP",
+    "Dial": "239"
+  },
+  {
+    "ISOCode": "SA",
+    "ISOCode3": "SAU",
+    "Dial": "966"
+  },
+  {
+    "ISOCode": "SN",
+    "ISOCode3": "SEN",
+    "Dial": "221"
+  },
+  {
+    "ISOCode": "RS",
+    "ISOCode3": "SRB",
+    "Dial": "381",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "SC",
+    "ISOCode3": "SYC",
+    "Dial": "248"
+  },
+  {
+    "ISOCode": "SL",
+    "ISOCode3": "SLE",
+    "Dial": "232"
+  },
+  {
+    "ISOCode": "SG",
+    "ISOCode3": "SGP",
+    "Dial": "65",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "SX",
+    "ISOCode3": "SXM",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "SK",
+    "ISOCode3": "SVK",
+    "Dial": "421",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "SI",
+    "ISOCode3": "SVN",
+    "Dial": "386",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "SB",
+    "ISOCode3": "SLB",
+    "Dial": "677"
+  },
+  {
+    "ISOCode": "SO",
+    "ISOCode3": "SOM",
+    "Dial": "252"
+  },
+  {
+    "ISOCode": "ZA",
+    "ISOCode3": "ZAF",
+    "Dial": "27"
+  },
+  {
+    "ISOCode": "GS",
+    "ISOCode3": "SGS",
+    "Dial": "500"
+  },
+  {
+    "ISOCode": "SS",
+    "ISOCode3": "SSD",
+    "Dial": "211"
+  },
+  {
+    "ISOCode": "ES",
+    "ISOCode3": "ESP",
+    "Dial": "34",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "LK",
+    "ISOCode3": "LKA",
+    "Dial": "94"
+  },
+  {
+    "ISOCode": "SD",
+    "ISOCode3": "SDN",
+    "Dial": "249"
+  },
+  {
+    "ISOCode": "SR",
+    "ISOCode3": "SUR",
+    "Dial": "597"
+  },
+  {
+    "ISOCode": "SJ",
+    "ISOCode3": "SJM",
+    "Dial": "47",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "SZ",
+    "ISOCode3": "SWZ",
+    "Dial": "268"
+  },
+  {
+    "ISOCode": "SE",
+    "ISOCode3": "SWE",
+    "Dial": "46",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "SY",
+    "ISOCode3": "SYR",
+    "Dial": "963"
+  },
+  {
+    "ISOCode": "TW",
+    "ISOCode3": "TWN",
+    "Dial": "886"
+  },
+  {
+    "ISOCode": "TJ",
+    "ISOCode3": "TJK",
+    "Dial": "992"
+  },
+  {
+    "ISOCode": "TH",
+    "ISOCode3": "THA",
+    "Dial": "66"
+  },
+  {
+    "ISOCode": "TL",
+    "ISOCode3": "TLS",
+    "Dial": "670"
+  },
+  {
+    "ISOCode": "TG",
+    "ISOCode3": "TGO",
+    "Dial": "228"
+  },
+  {
+    "ISOCode": "TK",
+    "ISOCode3": "TKL",
+    "Dial": "690"
+  },
+  {
+    "ISOCode": "TO",
+    "ISOCode3": "TON",
+    "Dial": "676"
+  },
+  {
+    "ISOCode": "TT",
+    "ISOCode3": "TTO",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "TN",
+    "ISOCode3": "TUN",
+    "Dial": "216"
+  },
+  {
+    "ISOCode": "TM",
+    "ISOCode3": "TKM",
+    "Dial": "993"
+  },
+  {
+    "ISOCode": "TC",
+    "ISOCode3": "TCA",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "TV",
+    "ISOCode3": "TUV",
+    "Dial": "688"
+  },
+  {
+    "ISOCode": "UG",
+    "ISOCode3": "UGA",
+    "Dial": "256"
+  },
+  {
+    "ISOCode": "UA",
+    "ISOCode3": "UKR",
+    "Dial": "380",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "AE",
+    "ISOCode3": "ARE",
+    "Dial": "971"
+  },
+  {
+    "ISOCode": "UY",
+    "ISOCode3": "URY",
+    "Dial": "598"
+  },
+  {
+    "ISOCode": "UZ",
+    "ISOCode3": "UZB",
+    "Dial": "998"
+  },
+  {
+    "ISOCode": "VU",
+    "ISOCode3": "VUT",
+    "Dial": "678"
+  },
+  {
+    "ISOCode": "VE",
+    "ISOCode3": "VEN",
+    "Dial": "58"
+  },
+  {
+    "ISOCode": "VN",
+    "ISOCode3": "VNM",
+    "Dial": "84"
+  },
+  {
+    "ISOCode": "VG",
+    "ISOCode3": "VGB",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "VI",
+    "ISOCode3": "VIR",
+    "Dial": "1",
+    "setting": {
+      "postal": 1
+    }
+  },
+  {
+    "ISOCode": "WF",
+    "ISOCode3": "WLF",
+    "Dial": "681"
+  },
+  {
+    "ISOCode": "EH",
+    "ISOCode3": "ESH",
+    "Dial": "212"
+  },
+  {
+    "ISOCode": "YE",
+    "ISOCode3": "YEM",
+    "Dial": "967"
+  },
+  {
+    "ISOCode": "ZM",
+    "ISOCode3": "ZMB",
+    "Dial": "260"
+  },
+  {
+    "ISOCode": "ZW",
+    "ISOCode3": "ZWE",
+    "Dial": "263"
+  },
+  {
+    "ISOCode": "AX",
+    "ISOCode3": "ALA",
+    "Dial": "358",
+    "setting": {
+      "postal": 1
+    }
+  }
+]

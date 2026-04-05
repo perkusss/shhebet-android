@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Account" android:key="pref_screen_account"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/privacy" android:key="account_privacy" app:iconSpaceReserved="false">
+        <CheckBoxPreference android:title="@string/last_seen" android:key="account_last_seen" android:summary="@string/last_seen_summary" android:defaultValue="@string/cons_account_last_seen" app:iconSpaceReserved="false" />
+        <CheckBoxPreference android:title="@string/read_receipts" android:key="account_read_receipts" android:summary="@string/read_receipts_summary" android:defaultValue="@string/cons_account_read_receipts" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <Preference android:title="@string/change_number" android:key="current_number" android:summary="@string/mobile_number" app:iconSpaceReserved="false">
+        <intent android:targetPackage="@string/app_id" android:action="android.intent.action.VIEW" android:targetClass="com.nandbox.view.settings.changePhone.ChangePhoneActivity" />
+    </Preference>
+    <Preference android:title="@string/change_email" android:key="current_email" android:summary="@string/email" app:iconSpaceReserved="false">
+        <intent android:targetPackage="@string/app_id" android:action="android.intent.action.VIEW" android:targetClass="com.nandbox.view.settings.changeEmail.ChangeEmailActivity" />
+    </Preference>
+    <ListPreference android:entries="@array/entries_settings_languages" android:title="@string/change_language" android:key="account_language" android:defaultValue="@string/cons_account_language" android:entryValues="@array/entryvalues_settings_languages" app:iconSpaceReserved="false" />
+    <CheckBoxPreference android:title="@string/sync_events" android:key="sync_events" android:summary="@string/sync_events_summary" android:defaultValue="@string/cons_sync_events" app:iconSpaceReserved="false" />
+    <PreferenceCategory android:title="@string/delete_account" app:iconSpaceReserved="false">
+        <Preference android:title="@string/delete_my_account" android:key="delete_my_account" android:summary="@string/delete_my_account_summary" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,106 @@
+package com.google.android.gms.internal.p873firebaseauthapi;
+
+import java.security.GeneralSecurityException;
+import java.security.InvalidAlgorithmParameterException;
+import java.util.Objects;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzis extends zziz {
+    private final int zza;
+    private final zzb zzb;
+
+    public static final class zza {
+        private Integer zza;
+        private zzb zzb;
+
+        /* synthetic */ zza(zziu zziuVar) {
+            this();
+        }
+
+        public final zza zza(int i10) throws InvalidAlgorithmParameterException {
+            if (i10 != 32 && i10 != 48 && i10 != 64) {
+                throw new InvalidAlgorithmParameterException(String.format("Invalid key size %d; only 32-byte, 48-byte and 64-byte AES-SIV keys are supported", Integer.valueOf(i10)));
+            }
+            this.zza = Integer.valueOf(i10);
+            return this;
+        }
+
+        private zza() {
+            this.zza = null;
+            this.zzb = zzb.zzc;
+        }
+
+        public final zza zza(zzb zzbVar) {
+            this.zzb = zzbVar;
+            return this;
+        }
+
+        public final zzis zza() throws GeneralSecurityException {
+            Integer num = this.zza;
+            if (num != null) {
+                if (this.zzb != null) {
+                    return new zzis(num.intValue(), this.zzb, null);
+                }
+                throw new GeneralSecurityException("Variant is not set");
+            }
+            throw new GeneralSecurityException("Key size is not set");
+        }
+    }
+
+    public static final class zzb {
+        public static final zzb zza = new zzb("TINK");
+        public static final zzb zzb = new zzb("CRUNCHY");
+        public static final zzb zzc = new zzb("NO_PREFIX");
+        private final String zzd;
+
+        private zzb(String str) {
+            this.zzd = str;
+        }
+
+        public final String toString() {
+            return this.zzd;
+        }
+    }
+
+    /* synthetic */ zzis(int i10, zzb zzbVar, zziv zzivVar) {
+        this(i10, zzbVar);
+    }
+
+    public static zza zzc() {
+        return new zza(null);
+    }
+
+    public final boolean equals(Object obj) {
+        if (!(obj instanceof zzis)) {
+            return false;
+        }
+        zzis zzisVar = (zzis) obj;
+        return zzisVar.zza == this.zza && zzisVar.zzb == this.zzb;
+    }
+
+    public final int hashCode() {
+        return Objects.hash(zzis.class, Integer.valueOf(this.zza), this.zzb);
+    }
+
+    public final String toString() {
+        return "AesSiv Parameters (variant: " + String.valueOf(this.zzb) + ", " + this.zza + "-byte key)";
+    }
+
+    @Override // com.google.android.gms.internal.p873firebaseauthapi.zzci
+    public final boolean zza() {
+        return this.zzb != zzb.zzc;
+    }
+
+    public final int zzb() {
+        return this.zza;
+    }
+
+    public final zzb zzd() {
+        return this.zzb;
+    }
+
+    private zzis(int i10, zzb zzbVar) {
+        this.zza = i10;
+        this.zzb = zzbVar;
+    }
+}

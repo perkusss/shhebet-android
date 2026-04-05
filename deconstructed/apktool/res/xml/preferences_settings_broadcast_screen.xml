@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_screen_broadcast"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/nearby_group_invitation" android:key="broadcast_nearby_group_invitation">
+        <CheckBoxPreference android:title="@string/nearby_group_invitation_enabled" android:key="broadcast_nearby_invitation_group_enabled" android:defaultValue="@string/cons_braodcast_nearby_group_invitation_enabled" />
+        <ListPreference android:entries="@array/entries_settings_broadcast_nearby" android:title="@string/nearby_group_invitation_individual" android:key="broadcast_nearby_invitation_group_individual" android:dependency="broadcast_nearby_invitation_group_enabled" android:defaultValue="@string/cons_broadcast_nearby_invitation_group_individual" android:entryValues="@array/entryvalues_settings_broadcast_nearby" />
+        <ListPreference android:entries="@array/entries_settings_broadcast_nearby" android:title="@string/nearby_group_invitation_business" android:key="broadcast_nearby_invitation_group_business" android:dependency="broadcast_nearby_invitation_group_enabled" android:defaultValue="@string/cons_broadcast_nearby_invitation_group_business" android:entryValues="@array/entryvalues_settings_broadcast_nearby" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/nearby_app_invitation" android:key="broadcast_nearby_app_invitation">
+        <CheckBoxPreference android:title="@string/nearby_app_invitation_enabled" android:key="broadcast_nearby_invitation_app_enabled" android:defaultValue="@string/cons_braodcast_nearby_app_invitation_enabled" />
+        <ListPreference android:entries="@array/entries_settings_broadcast_nearby" android:title="@string/nearby_app_invitation_individual" android:key="broadcast_nearby_invitation_app_individual" android:dependency="broadcast_nearby_invitation_app_enabled" android:defaultValue="@string/cons_broadcast_nearby_invitation_app_individual" android:entryValues="@array/entryvalues_settings_broadcast_nearby" />
+        <ListPreference android:entries="@array/entries_settings_broadcast_nearby" android:title="@string/nearby_app_invitation_business" android:key="broadcast_nearby_invitation_app_business" android:dependency="broadcast_nearby_invitation_app_enabled" android:defaultValue="@string/cons_broadcast_nearby_invitation_app_business" android:entryValues="@array/entryvalues_settings_broadcast_nearby" />
+    </PreferenceCategory>
+</PreferenceScreen>

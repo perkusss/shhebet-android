@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="65.0dp" android:layout_height="65.0dp" android:elevation="0.0dp" app:cardBackgroundColor="@color/colorPrimary" app:cardCornerRadius="34.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="33.0sp" android:textColor="?colorOnPrimary" android:gravity="center" android:layout_gravity="center|top" android:id="@id/txt_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:fontFamily="@string/font_roboto_medium" />
+        <TextView android:textSize="18.0sp" android:textColor="?colorOnPrimary" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/txt_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dp" android:text="Feb" android:fontFamily="@string/font_roboto" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

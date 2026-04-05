@@ -1,0 +1,1696 @@
+#
+# generated on 2021/04/01 08:57:49
+#
+# --table-start--
+dataClass=com.nandbox.x.t.GroupMember
+tableName=GROUP_MEMBER
+# --table-fields-start--
+# --field-start--
+fieldName=GROUP_ID
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=ACCOUNT_ID
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=TYP
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=TIME
+dataPersister=DATE_LONG
+version=true
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=PRIVILEGE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Message
+tableName=MESSAGE
+# --table-fields-start--
+# --field-start--
+fieldName=LID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=MID
+# --field-end--
+# --field-start--
+fieldName=MSG_DATE
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=PID
+# --field-end--
+# --field-start--
+fieldName=SND
+# --field-end--
+# --field-start--
+fieldName=RCV
+# --field-end--
+# --field-start--
+fieldName=GRP
+# --field-end--
+# --field-start--
+fieldName=TYP
+# --field-end--
+# --field-start--
+fieldName=SNM
+# --field-end--
+# --field-start--
+fieldName=MSG1
+# --field-end--
+# --field-start--
+fieldName=DTM
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=EXP
+# --field-end--
+# --field-start--
+fieldName=DUR
+# --field-end--
+# --field-start--
+fieldName=CC
+# --field-end--
+# --field-start--
+fieldName=SC
+# --field-end--
+# --field-start--
+fieldName=CA
+# --field-end--
+# --field-start--
+fieldName=E1
+# --field-end--
+# --field-start--
+fieldName=E2
+# --field-end--
+# --field-start--
+fieldName=E3
+# --field-end--
+# --field-start--
+fieldName=E4
+# --field-end--
+# --field-start--
+fieldName=E5
+# --field-end--
+# --field-start--
+fieldName=C1
+# --field-end--
+# --field-start--
+fieldName=C2
+# --field-end--
+# --field-start--
+fieldName=C3
+# --field-end--
+# --field-start--
+fieldName=C4
+# --field-end--
+# --field-start--
+fieldName=C5
+# --field-end--
+# --field-start--
+fieldName=URL1
+# --field-end--
+# --field-start--
+fieldName=URL2
+# --field-end--
+# --field-start--
+fieldName=MSG2
+# --field-end--
+# --field-start--
+fieldName=IMG
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=LOCAL_PATH
+# --field-end--
+# --field-start--
+fieldName=UPLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=GNM
+# --field-end--
+# --field-start--
+fieldName=AGA
+# --field-end--
+# --field-start--
+fieldName=DOWNLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=RED
+# --field-end--
+# --field-start--
+fieldName=PAUSE
+# --field-end--
+# --field-start--
+fieldName=FILENAME
+# --field-end--
+# --field-start--
+fieldName=THUMBNAIL_LOCAL_PATH
+# --field-end--
+# --field-start--
+fieldName=TEMP_PATH
+# --field-end--
+# --field-start--
+fieldName=PROGRESS
+# --field-end--
+# --field-start--
+fieldName=SID
+# --field-end--
+# --field-start--
+fieldName=HASH_NAME
+# --field-end--
+# --field-start--
+fieldName=COMPRESSED
+# --field-end--
+# --field-start--
+fieldName=MSG_CHD
+# --field-end--
+# --field-start--
+fieldName=VER
+# --field-end--
+# --field-start--
+fieldName=MSG_CHD_RED
+# --field-end--
+# --field-start--
+fieldName=MSG_DELETE
+# --field-end--
+# --field-start--
+fieldName=RED1
+# --field-end--
+# --field-start--
+fieldName=RED2
+# --field-end--
+# --field-start--
+fieldName=METADATA_ID
+# --field-end--
+# --field-start--
+fieldName=SEEN
+# --field-end--
+# --field-start--
+fieldName=SKIP_EMOJI
+# --field-end--
+# --field-start--
+fieldName=LIKES
+# --field-end--
+# --field-start--
+fieldName=SHARES
+# --field-end--
+# --field-start--
+fieldName=MYLIKE
+# --field-end--
+# --field-start--
+fieldName=VIEWS
+# --field-end--
+# --field-start--
+fieldName=FLG
+# --field-end--
+# --field-start--
+fieldName=MENU_REF
+# --field-end--
+# --field-start--
+fieldName=INLINE_MENU
+# --field-end--
+# --field-start--
+fieldName=C_CODE
+# --field-end--
+# --field-start--
+fieldName=C_EXP
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=MC
+# --field-end--
+# --field-start--
+fieldName=PT
+# --field-end--
+# --field-start--
+fieldName=ADM
+# --field-end--
+# --field-start--
+fieldName=TAB
+# --field-end--
+# --field-start--
+fieldName=STYLE
+# --field-end--
+# --field-start--
+fieldName=LAST_LID
+# --field-end--
+# --field-start--
+fieldName=LAST_DATE
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=CHS
+# --field-end--
+# --field-start--
+fieldName=TAGS
+# --field-end--
+# --field-start--
+fieldName=JSON
+# --field-end--
+# --field-start--
+fieldName=GMID
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.MyGroup
+tableName=MYGROUP
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=GROUP_ID
+# --field-end--
+# --field-start--
+fieldName=TIME
+dataPersister=DATE_LONG
+version=true
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=MESSAGE
+# --field-end--
+# --field-start--
+fieldName=IMAGE
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=CATEGORY
+# --field-end--
+# --field-start--
+fieldName=TYPE
+# --field-end--
+# --field-start--
+fieldName=CLASSIFICATION
+# --field-end--
+# --field-start--
+fieldName=MEMBER_TYPE
+# --field-end--
+# --field-start--
+fieldName=GROUP_COUNT
+# --field-end--
+# --field-start--
+fieldName=MUTE
+# --field-end--
+# --field-start--
+fieldName=URL
+# --field-end--
+# --field-start--
+fieldName=LOCAL_PATH
+# --field-end--
+# --field-start--
+fieldName=UPLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=DOWNLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=FAVOURITE
+# --field-end--
+# --field-start--
+fieldName=PROGRESS
+# --field-end--
+# --field-start--
+fieldName=VERSION
+# --field-end--
+# --field-start--
+fieldName=RED
+# --field-end--
+# --field-start--
+fieldName=PERMISSION
+# --field-end--
+# --field-start--
+fieldName=VERIFIED
+# --field-end--
+# --field-start--
+fieldName=BUSINESS
+# --field-end--
+# --field-start--
+fieldName=DISCOVERY_THRESHOLD
+# --field-end--
+# --field-start--
+fieldName=BROADCAST_TIMEOUT
+# --field-end--
+# --field-start--
+fieldName=INVITATIONS
+# --field-end--
+# --field-start--
+fieldName=DISCOVERED
+# --field-end--
+# --field-start--
+fieldName=BROADCASTED
+# --field-end--
+# --field-start--
+fieldName=ACCEPTED
+# --field-end--
+# --field-start--
+fieldName=REJECTED
+# --field-end--
+# --field-start--
+fieldName=MENU_VERSION
+# --field-end--
+# --field-start--
+fieldName=IS_PUBLIC
+# --field-end--
+# --field-start--
+fieldName=RATE
+# --field-end--
+# --field-start--
+fieldName=STAR
+# --field-end--
+# --field-start--
+fieldName=CREATED_TIME
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=QRCODE
+# --field-end--
+# --field-start--
+fieldName=INVALID
+# --field-end--
+# --field-start--
+fieldName=LAST_DATE
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ADMIN_COUNT
+# --field-end--
+# --field-start--
+fieldName=HISTORY
+# --field-end--
+# --field-start--
+fieldName=BUSINESS_UPGRADE
+# --field-end--
+# --field-start--
+fieldName=API_UPGRADE
+# --field-end--
+# --field-start--
+fieldName=HEADER_COLOR
+# --field-end--
+# --field-start--
+fieldName=PINNED_DATE
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=PT_TARGET1
+# --field-end--
+# --field-start--
+fieldName=PT_TARGET2
+# --field-end--
+# --field-start--
+fieldName=CARD_URL
+# --field-end--
+# --field-start--
+fieldName=MEMBERSHIP_ID
+# --field-end--
+# --field-start--
+fieldName=ACCUMULATOR_1
+# --field-end--
+# --field-start--
+fieldName=IS_CARD
+# --field-end--
+# --field-start--
+fieldName=IS_EARN
+# --field-end--
+# --field-start--
+fieldName=APP_CONFIG
+# --field-end--
+# --field-start--
+fieldName=PRIVILEGE
+# --field-end--
+# --field-start--
+fieldName=TAGS
+# --field-end--
+# --field-start--
+fieldName=ADDRESS
+# --field-end--
+# --field-start--
+fieldName=ADDRESS2
+# --field-end--
+# --field-start--
+fieldName=LATITUDE
+# --field-end--
+# --field-start--
+fieldName=LONGITUDE
+# --field-end--
+# --field-start--
+fieldName=START_DATE
+# --field-end--
+# --field-start--
+fieldName=END_DATE
+# --field-end--
+# --field-start--
+fieldName=START_TIME
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=END_TIME
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=ALL_DAY
+# --field-end--
+# --field-start--
+fieldName=NOTIFY
+# --field-end--
+# --field-start--
+fieldName=OWNER_ID
+# --field-end--
+# --field-start--
+fieldName=SYS_ID
+# --field-end--
+# --field-start--
+fieldName=BOOKING_VERSION
+# --field-end--
+# --field-start--
+fieldName=PARENT_ID
+# --field-end--
+# --field-start--
+fieldName=SLOT_DURATION
+# --field-end--
+# --field-start--
+fieldName=SLOT_SPACE
+# --field-end--
+# --field-start--
+fieldName=PERMANENT
+# --field-end--
+# --field-start--
+fieldName=SPLASH
+# --field-end--
+# --field-start--
+fieldName=PAYMENT_ENABLED
+# --field-end--
+# --field-start--
+fieldName=PRICE
+# --field-end--
+# --field-start--
+fieldName=CURRENCY
+# --field-end--
+# --field-start--
+fieldName=PERIOD
+# --field-end--
+# --field-start--
+fieldName=PERIOD_NUMBER
+# --field-end--
+# --field-start--
+fieldName=BOOKING_CANCEL
+# --field-end--
+# --field-start--
+fieldName=BOOKING_CANCEL_PERIOD
+# --field-end--
+# --field-start--
+fieldName=BOOKING_CANCEL_PERIOD_NUMBER
+# --field-end--
+# --field-start--
+fieldName=SPLASH_CONFIG
+# --field-end--
+# --field-start--
+fieldName=PRODUCT_ID
+# --field-end--
+# --field-start--
+fieldName=BUSINESS_ADMIN
+# --field-end--
+# --field-start--
+fieldName=VAPP
+# --field-end--
+# --field-start--
+fieldName=ORDER_ID
+# --field-end--
+# --field-start--
+fieldName=EXPIRE
+# --field-end--
+# --field-start--
+fieldName=TOKEN
+# --field-end--
+# --field-start--
+fieldName=VAPP_ID
+# --field-end--
+# --field-start--
+fieldName=PAYMENT_OPTIONS
+# --field-end--
+# --field-start--
+fieldName=RETENTION
+# --field-end--
+# --field-start--
+fieldName=SKIP_SPLASH
+# --field-end--
+# --field-start--
+fieldName=AD_FREE
+# --field-end--
+# --field-start--
+fieldName=NO_TIME
+# --field-end--
+# --field-start--
+fieldName=MAX_GMID
+# --field-end--
+# --field-start--
+fieldName=META
+# --field-end--
+# --field-start--
+fieldName=ONBOARD
+# --field-end--
+# --field-start--
+fieldName=CONTROLS
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.MyProfile
+tableName=MYPROFILE
+# --table-fields-start--
+# --field-start--
+fieldName=PROFILE_ID
+id=true
+# --field-end--
+# --field-start--
+fieldName=TIME
+dataPersister=DATE_LONG
+version=true
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=MESSAGE
+# --field-end--
+# --field-start--
+fieldName=IMAGE
+# --field-end--
+# --field-start--
+fieldName=LOCAL_PATH
+# --field-end--
+# --field-start--
+fieldName=URL
+# --field-end--
+# --field-start--
+fieldName=UPLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=DOWNLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=PROGRESS
+# --field-end--
+# --field-start--
+fieldName=VERSION
+# --field-end--
+# --field-start--
+fieldName=SIP_USERNAME
+# --field-end--
+# --field-start--
+fieldName=SIP_PORT
+# --field-end--
+# --field-start--
+fieldName=SIP_PROTOCOL
+# --field-end--
+# --field-start--
+fieldName=SIP_DOMAIN
+# --field-end--
+# --field-start--
+fieldName=SIP_PASSWORD
+# --field-end--
+# --field-start--
+fieldName=SIP_ENABLED
+# --field-end--
+# --field-start--
+fieldName=VIEW
+# --field-end--
+# --field-start--
+fieldName=BILLING_ADDRESS
+# --field-end--
+# --field-start--
+fieldName=SHIPPING_ADDRESS
+# --field-end--
+# --field-start--
+fieldName=EXTRA_INFO
+# --field-end--
+# --field-start--
+fieldName=ADDRESS
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Profile
+tableName=PROFILE
+# --table-fields-start--
+# --field-start--
+fieldName=ACCOUNT_ID
+id=true
+# --field-end--
+# --field-start--
+fieldName=TIME
+dataPersister=DATE_LONG
+version=true
+# --field-end--
+# --field-start--
+fieldName=MSISDN
+# --field-end--
+# --field-start--
+fieldName=PROFILE_ID
+defaultValue=0
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=MESSAGE
+# --field-end--
+# --field-start--
+fieldName=IMAGE
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=MUTE
+defaultValue=0
+# --field-end--
+# --field-start--
+fieldName=LOCAL_PATH
+# --field-end--
+# --field-start--
+fieldName=URL
+# --field-end--
+# --field-start--
+fieldName=DOWNLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=FAVOURITE
+defaultValue=0
+# --field-end--
+# --field-start--
+fieldName=PROGRESS
+# --field-end--
+# --field-start--
+fieldName=VERSION
+# --field-end--
+# --field-start--
+fieldName=RED
+# --field-end--
+# --field-start--
+fieldName=INVALID
+# --field-end--
+# --field-start--
+fieldName=SIP
+# --field-end--
+# --field-start--
+fieldName=PINNED_DATE
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=TYPE
+# --field-end--
+# --field-start--
+fieldName=OWNER
+# --field-end--
+# --field-start--
+fieldName=VERIFIED
+# --field-end--
+# --field-start--
+fieldName=UPLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=INLINE
+# --field-end--
+# --field-start--
+fieldName=IS_PUBLIC
+# --field-end--
+# --field-start--
+fieldName=FILTER
+# --field-end--
+# --field-start--
+fieldName=USERNAME
+# --field-end--
+# --field-start--
+fieldName=EMAIL
+# --field-end--
+# --field-start--
+fieldName=VALID
+# --field-end--
+# --field-start--
+fieldName=IS_PUBLISH
+# --field-end--
+# --field-start--
+fieldName=ABOUT
+# --field-end--
+# --field-start--
+fieldName=DISALLOW_GROUP
+# --field-end--
+# --field-start--
+fieldName=RETENTION
+# --field-end--
+# --field-start--
+fieldName=DELETED
+# --field-end--
+# --field-start--
+fieldName=PAID
+# --field-end--
+# --field-start--
+fieldName=PAYMENT
+# --field-end--
+# --field-start--
+fieldName=EXPIRY_DATE
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=PRODUCT
+# --field-end--
+# --field-start--
+fieldName=TOKEN
+# --field-end--
+# --field-start--
+fieldName=EXTRA_INFO
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.SentContact
+tableName=SENT_CONTACT
+# --table-fields-start--
+# --field-start--
+fieldName=MSISDN
+id=true
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=BATCH
+# --field-end--
+# --field-start--
+fieldName=SENT
+# --field-end--
+# --field-start--
+fieldName=NORMALIZED
+# --field-end--
+# --field-start--
+fieldName=PROFILE_ID
+# --field-end--
+# --field-start--
+fieldName=TYPE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Sticker
+tableName=STICKER
+# --table-fields-start--
+# --field-start--
+fieldName=STICKER_ID
+# --field-end--
+# --field-start--
+fieldName=IMAGE
+# --field-end--
+# --field-start--
+fieldName=EXTENSTION
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=PACKAGE_ID
+# --field-end--
+# --field-start--
+fieldName=DOWNLOAD_CODE
+# --field-end--
+# --field-start--
+fieldName=LOCAL_PATH
+# --field-end--
+# --field-start--
+fieldName=DOWNLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=LIST_ORDER
+# --field-end--
+# --field-start--
+fieldName=PROGRESS
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.StickerPackage
+tableName=STICKER_PACKAGE
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=TITLE_IMAGE
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=DESCRIPTION
+# --field-end--
+# --field-start--
+fieldName=COPYRIGHT
+# --field-end--
+# --field-start--
+fieldName=AMOUNT
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=MERCHANT_NAME
+# --field-end--
+# --field-start--
+fieldName=PACKAGE_ID
+# --field-end--
+# --field-start--
+fieldName=AUTH_CODE
+# --field-end--
+# --field-start--
+fieldName=SALES_TIME
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=LOCAL_PATH
+# --field-end--
+# --field-start--
+fieldName=DOWNLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=EXTENSTION
+# --field-end--
+# --field-start--
+fieldName=STICKER_COUNT
+# --field-end--
+# --field-start--
+fieldName=PROGRESS
+# --field-end--
+# --field-start--
+fieldName=IMAGE_MENU
+# --field-end--
+# --field-start--
+fieldName=FEATURE_DOWNLOAD_STATUS
+# --field-end--
+# --field-start--
+fieldName=SKU_ID
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.StickerPurchased
+tableName=STICKER_PURCHASED
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=PACKAGE_ID
+# --field-end--
+# --field-start--
+fieldName=SALE_ID
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.BroadcastBlock
+tableName=BROADCAST_BLOCK
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=X
+# --field-end--
+# --field-start--
+fieldName=Y
+# --field-end--
+# --field-start--
+fieldName=TIME
+dataPersister=DATE_LONG
+version=true
+# --field-end--
+# --field-start--
+fieldName=MAX_SCAN
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Broadcast
+tableName=BROADCAST
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=GROUPID
+# --field-end--
+# --field-start--
+fieldName=X
+# --field-end--
+# --field-start--
+fieldName=Y
+# --field-end--
+# --field-start--
+fieldName=TRUNC_X
+# --field-end--
+# --field-start--
+fieldName=TRUNC_Y
+# --field-end--
+# --field-start--
+fieldName=DISCOVERY_THRESHOLD
+# --field-end--
+# --field-start--
+fieldName=BLOCK_ID
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.VideoInfo
+tableName=VIDEO_INFO
+# --table-fields-start--
+# --field-start--
+fieldName=LID
+id=true
+# --field-end--
+# --field-start--
+fieldName=START_TIME
+# --field-end--
+# --field-start--
+fieldName=END_TIME
+# --field-end--
+# --field-start--
+fieldName=ROTATION_VALUE
+# --field-end--
+# --field-start--
+fieldName=INPUT_WIDTH
+# --field-end--
+# --field-start--
+fieldName=INPUT_HEIGHT
+# --field-end--
+# --field-start--
+fieldName=OUTPUT_WIDTH
+# --field-end--
+# --field-start--
+fieldName=OUTPUT_HEIGHT
+# --field-end--
+# --field-start--
+fieldName=FREQUENCY
+# --field-end--
+# --field-start--
+fieldName=IS_CLIPPED
+# --field-end--
+# --field-start--
+fieldName=OUTPUT_SIZE
+# --field-end--
+# --field-start--
+fieldName=FILE_PATH
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.DeleteFile
+tableName=DELETE_FILE
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+id=true
+# --field-end--
+# --field-start--
+fieldName=FILENAME
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=TIME
+dataPersister=DATE_LONG
+version=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Invitation
+tableName=INVITATION
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+id=true
+# --field-end--
+# --field-start--
+fieldName=TIME
+dataPersister=DATE_LONG
+version=true
+# --field-end--
+# --field-start--
+fieldName=ROLE
+# --field-end--
+# --field-start--
+fieldName=GROUP_ID
+# --field-end--
+# --field-start--
+fieldName=SENDER_ID
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=IS_ADMIN
+# --field-end--
+# --field-start--
+fieldName=MSG
+# --field-end--
+# --field-start--
+fieldName=INVITATION_ID
+# --field-end--
+# --field-start--
+fieldName=SEEN
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.URLMetadata
+tableName=URL_METADATA
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=WEB_URL
+# --field-end--
+# --field-start--
+fieldName=SITE_NAME
+# --field-end--
+# --field-start--
+fieldName=TITLE
+# --field-end--
+# --field-start--
+fieldName=DESCRIPTION
+# --field-end--
+# --field-start--
+fieldName=IMAGE_URL
+# --field-end--
+# --field-start--
+fieldName=VIDEO_URL
+# --field-end--
+# --field-start--
+fieldName=IMAGE_LOCAL_PATH
+# --field-end--
+# --field-start--
+fieldName=IMAGE_WIDTH
+# --field-end--
+# --field-start--
+fieldName=IMAGE_HEIGHT
+# --field-end--
+# --field-start--
+fieldName=HTML_PATH
+# --field-end--
+# --field-start--
+fieldName=START_TIME
+# --field-end--
+# --field-start--
+fieldName=END_TIME
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.StunServer
+tableName=STUN_SERVER
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+id=true
+# --field-end--
+# --field-start--
+fieldName=URL
+# --field-end--
+# --field-start--
+fieldName=PORT
+# --field-end--
+# --field-start--
+fieldName=TYPE
+# --field-end--
+# --field-start--
+fieldName=USERNAME
+# --field-end--
+# --field-start--
+fieldName=PASSWORD
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.PurchaseOrder
+tableName=PURCHASE_ORDER
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=NANDBOX_ID
+# --field-end--
+# --field-start--
+fieldName=ORDER_ID
+# --field-end--
+# --field-start--
+fieldName=PACKAGE_NAME
+# --field-end--
+# --field-start--
+fieldName=SKU_ID
+# --field-end--
+# --field-start--
+fieldName=PRODUCT_ID
+# --field-end--
+# --field-start--
+fieldName=PURCHASE_TIME
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=PURCHASE_STATE
+# --field-end--
+# --field-start--
+fieldName=PURCHASE_TOKEN
+# --field-end--
+# --field-start--
+fieldName=AUTO_RENEW
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=TYP
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Chats
+tableName=chats
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=ACCOUNT_ID
+# --field-end--
+# --field-start--
+fieldName=GROUP_ID
+# --field-end--
+# --field-start--
+fieldName=LAST_LID
+# --field-end--
+# --field-start--
+fieldName=LAST_MSG_DATE
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=LAST_SYNC
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=UNRED_COUNT
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.GroupTabs
+tableName=GROUP_TABS
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=GROUP_ID
+# --field-end--
+# --field-start--
+fieldName=TAB_ID
+# --field-end--
+# --field-start--
+fieldName=TAB_KEY
+# --field-end--
+# --field-start--
+fieldName=TAB_VALUE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.TripCheckInOut
+tableName=TRIP_CHECKINOUT
+# --table-fields-start--
+# --field-start--
+fieldName=TID
+# --field-end--
+# --field-start--
+fieldName=DIFF
+# --field-end--
+# --field-start--
+fieldName=DAY
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=MAP_ID
+# --field-end--
+# --field-start--
+fieldName=MS
+# --field-end--
+# --field-start--
+fieldName=GROUP_ID
+# --field-end--
+# --field-start--
+fieldName=ACCOUNT_ID
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=DATE
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=LAT
+# --field-end--
+# --field-start--
+fieldName=LON
+# --field-end--
+# --field-start--
+fieldName=TYPE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.TimedMember
+tableName=TIMED_MEMBER
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=GROUP_ID
+# --field-end--
+# --field-start--
+fieldName=ACCOUNT_ID
+# --field-end--
+# --field-start--
+fieldName=START_TIME
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=END_TIME
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=TZ
+# --field-end--
+# --field-start--
+fieldName=SYS_ID
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Ticket
+tableName=TICKET
+# --table-fields-start--
+# --field-start--
+fieldName=TIMED_MEMBER_ID
+# --field-end--
+# --field-start--
+fieldName=REFERENCE
+# --field-end--
+# --field-start--
+fieldName=SEQUENCE
+# --field-end--
+# --field-start--
+fieldName=PRICE
+# --field-end--
+# --field-start--
+fieldName=CURRENCY
+# --field-end--
+# --field-start--
+fieldName=QRCODE
+# --field-end--
+# --field-start--
+fieldName=PRODUCT_BALANCE_EXPIRE
+# --field-end--
+# --field-start--
+fieldName=CANCEL_EXPIRE
+# --field-end--
+# --field-start--
+fieldName=CANCELABLE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.CalendarTable
+tableName=CALENDER
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=CAL_ID
+# --field-end--
+# --field-start--
+fieldName=GROUP_ID
+# --field-end--
+# --field-start--
+fieldName=TITLE
+# --field-end--
+# --field-start--
+fieldName=URL
+# --field-end--
+# --field-start--
+fieldName=DESCRIPTION
+# --field-end--
+# --field-start--
+fieldName=START_DATE
+# --field-end--
+# --field-start--
+fieldName=END_DATE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.CalendarException
+tableName=CALENDER_EXCEPTION
+# --table-fields-start--
+# --field-start--
+fieldName=CAL_ID
+# --field-end--
+# --field-start--
+fieldName=DAY
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.CalendarDetails
+tableName=CALENDER_DETAILS
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=CAL_ID
+# --field-end--
+# --field-start--
+fieldName=DETAIL_ID
+# --field-end--
+# --field-start--
+fieldName=WEEK_DAY
+# --field-end--
+# --field-start--
+fieldName=TITLE
+# --field-end--
+# --field-start--
+fieldName=START_TIME
+# --field-end--
+# --field-start--
+fieldName=END_TIME
+# --field-end--
+# --field-start--
+fieldName=URL
+# --field-end--
+# --field-start--
+fieldName=DESCRIPTION
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.PaymentConf
+tableName=PAYMENT_CONF
+# --table-fields-start--
+# --field-start--
+fieldName=PROVIDER_ID
+id=true
+# --field-end--
+# --field-start--
+fieldName=INFO
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Product
+tableName=PRODUCT
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+id=true
+# --field-end--
+# --field-start--
+fieldName=NAME
+# --field-end--
+# --field-start--
+fieldName=SKU
+# --field-end--
+# --field-start--
+fieldName=MESSAGE
+# --field-end--
+# --field-start--
+fieldName=CREATED_DATE
+dataPersister=DATE_LONG
+version=true
+# --field-end--
+# --field-start--
+fieldName=STATUS
+# --field-end--
+# --field-start--
+fieldName=PRICE
+# --field-end--
+# --field-start--
+fieldName=PARAMS
+# --field-end--
+# --field-start--
+fieldName=IMAGE
+# --field-end--
+# --field-start--
+fieldName=URL
+# --field-end--
+# --field-start--
+fieldName=VERSION
+# --field-end--
+# --field-start--
+fieldName=CURRENCY
+# --field-end--
+# --field-start--
+fieldName=MAX_UNIT
+# --field-end--
+# --field-start--
+fieldName=STORE_MENU
+# --field-end--
+# --field-start--
+fieldName=DISPLAY_NAME
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.CachedObject
+tableName=CACHED_OBJECT
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=OBJECT_ID
+# --field-end--
+# --field-start--
+fieldName=OBJECT_JSON
+# --field-end--
+# --field-start--
+fieldName=VERSION
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.CachedPage
+tableName=CACHED_PAGE
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+# --field-end--
+# --field-start--
+fieldName=VAPP_ID
+# --field-end--
+# --field-start--
+fieldName=TYPE
+# --field-end--
+# --field-start--
+fieldName=VERSION
+# --field-end--
+# --field-start--
+fieldName=PAGE
+# --field-end--
+# --field-start--
+fieldName=LAST_UPDATE
+# --field-end--
+# --field-start--
+fieldName=LAST_READ
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.StoreCart
+tableName=STORE_CART
+# --table-fields-start--
+# --field-start--
+fieldName=VAPP_ID
+# --field-end--
+# --field-start--
+fieldName=CART_DATA
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.Cal
+tableName=CAL
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=VAPP_ID
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=START_DATE
+# --field-end--
+# --field-start--
+fieldName=END_DATE
+# --field-end--
+# --field-start--
+fieldName=TYPE
+# --field-end--
+# --field-start--
+fieldName=DATA
+# --field-end--
+# --field-start--
+fieldName=START_TIME
+# --field-end--
+# --field-start--
+fieldName=END_TIME
+# --field-end--
+# --field-start--
+fieldName=SYS_CALENDAR_ID
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.CalDetail
+tableName=CAL_DETAIL
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=VAPP_ID
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=DETAIL_ID
+# --field-end--
+# --field-start--
+fieldName=WEEK_DAY
+# --field-end--
+# --field-start--
+fieldName=START_TIME
+# --field-end--
+# --field-start--
+fieldName=END_TIME
+# --field-end--
+# --field-start--
+fieldName=DATA
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.nandbox.x.t.CalException
+tableName=CAL_EXCEPTION
+# --table-fields-start--
+# --field-start--
+fieldName=ID
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=VAPP_ID
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=DAY
+# --field-end--
+# --table-fields-end--
+# --table-end--

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_space">
+        <TextView android:textSize="16.0sp" android:textColor="?colorOnSurfaceVariant" android:gravity="center" android:id="@id/desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp" />
+        <com.google.android.material.button.MaterialButton android:id="@id/btn_invite" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/invite_friends" android:layout_marginStart="40.0dp" android:layout_marginEnd="40.0dp" app:icon="@drawable/ic_baseline_person_add_alt_1_24dp" app:iconGravity="textStart" style="@style/Widget.Material3.Button.Icon" />
+    </LinearLayout>
+</LinearLayout>

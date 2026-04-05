@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bot_filters">
+        <item>@string/post_text</item>
+        <item>@string/reply</item>
+        <item>@string/all_text</item>
+        <item>@string/none</item>
+    </array>
+    <array name="cons_media_download_channel_fav_3g">
+        <item>image</item>
+    </array>
+    <array name="cons_media_download_channel_fav_roaming">
+    </array>
+    <array name="cons_media_download_channel_fav_wifi">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>file</item>
+    </array>
+    <array name="cons_media_download_channel_other_3g">
+        <item>image</item>
+    </array>
+    <array name="cons_media_download_channel_other_roaming">
+    </array>
+    <array name="cons_media_download_channel_other_wifi">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>file</item>
+    </array>
+    <array name="cons_media_download_contact_fav_3g">
+        <item>image</item>
+    </array>
+    <array name="cons_media_download_contact_fav_roaming">
+    </array>
+    <array name="cons_media_download_contact_fav_wifi">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>file</item>
+    </array>
+    <array name="cons_media_download_contact_other_3g">
+        <item>image</item>
+    </array>
+    <array name="cons_media_download_contact_other_roaming">
+    </array>
+    <array name="cons_media_download_contact_other_wifi">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>file</item>
+    </array>
+    <array name="cons_media_download_group_fav_3g">
+        <item>image</item>
+    </array>
+    <array name="cons_media_download_group_fav_roaming">
+    </array>
+    <array name="cons_media_download_group_fav_wifi">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>file</item>
+    </array>
+    <array name="cons_media_download_group_other_3g">
+        <item>image</item>
+    </array>
+    <array name="cons_media_download_group_other_roaming">
+    </array>
+    <array name="cons_media_download_group_other_wifi">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>file</item>
+    </array>
+    <array name="entries_settings_broadcast_nearby">
+        <item>@string/all</item>
+        <item>@string/verified</item>
+    </array>
+    <array name="entries_settings_font_size">
+        <item>@string/small</item>
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </array>
+    <array name="entries_settings_languages">
+        <item>@string/english</item>
+        <item>@string/arabic</item>
+        <item>@string/deutsch</item>
+        <item>@string/spanish</item>
+        <item>@string/french</item>
+        <item>@string/italian</item>
+        <item>@string/japanese</item>
+        <item>@string/korean</item>
+        <item>@string/nederlands</item>
+        <item>@string/portuguese</item>
+        <item>@string/chinese</item>
+        <item>@string/farsi</item>
+    </array>
+    <array name="entries_settings_media_download_channel">
+        <item>@string/image</item>
+        <item>@string/video</item>
+        <item>@string/audio</item>
+        <item>@string/voice_note</item>
+        <item>@string/file</item>
+    </array>
+    <array name="entries_settings_media_download_media_channel">
+        <item>@string/image</item>
+        <item>@string/video</item>
+        <item>@string/audio</item>
+        <item>@string/voice_note</item>
+        <item>@string/file</item>
+    </array>
+    <array name="entries_settings_media_download_media_contact">
+        <item>@string/image</item>
+        <item>@string/video</item>
+        <item>@string/audio</item>
+        <item>@string/file</item>
+    </array>
+    <array name="entries_settings_media_download_media_group">
+        <item>@string/image</item>
+        <item>@string/video</item>
+        <item>@string/audio</item>
+        <item>@string/voice_note</item>
+        <item>@string/file</item>
+    </array>
+    <array name="entries_settings_notification_led">
+        <item>@string/none</item>
+        <item>@string/white</item>
+        <item>@string/red</item>
+        <item>@string/yellow</item>
+        <item>@string/green</item>
+        <item>@string/blue</item>
+    </array>
+    <array name="entries_settings_notification_vibrate">
+        <item>@string/vibrate_off</item>
+        <item>@string/vibrate_short</item>
+        <item>@string/vibrate_long</item>
+        <item>@string/default_text</item>
+    </array>
+    <array name="entry_settings_color_modes">
+        <item>@string/system_default</item>
+        <item>@string/Light</item>
+        <item>@string/dark</item>
+    </array>
+    <array name="entryvalues_settings_broadcast_nearby">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="entryvalues_settings_color_modes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="entryvalues_settings_font_size">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="entryvalues_settings_languages">
+        <item>en</item>
+        <item>ar</item>
+        <item>de</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>nl</item>
+        <item>pt</item>
+        <item>zh</item>
+        <item>fa</item>
+    </array>
+    <array name="entryvalues_settings_media_download_media_channel">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>voice_note</item>
+        <item>file</item>
+    </array>
+    <array name="entryvalues_settings_media_download_media_contact">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>file</item>
+    </array>
+    <array name="entryvalues_settings_media_download_media_group">
+        <item>image</item>
+        <item>video</item>
+        <item>audio</item>
+        <item>voice_note</item>
+        <item>file</item>
+    </array>
+    <array name="entryvalues_settings_notification_led">
+        <item />
+        <item>#FFFFFFFF</item>
+        <item>#FFFF0000</item>
+        <item>#FFFFFF00</item>
+        <item>#FF00FF00</item>
+        <item>#FF0000FF</item>
+    </array>
+    <array name="entryvalues_settings_notification_vibrate">
+        <item>OFF</item>
+        <item>SHORT</item>
+        <item>LONG</item>
+        <item>DEFAULT</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="initial_slider_values">
+        <item>20</item>
+        <item>70</item>
+    </array>
+    <array name="material_calendar_day_abbreviations_array">
+        <item>@string/material_calendar_sunday</item>
+        <item>@string/material_calendar_monday</item>
+        <item>@string/material_calendar_tuesday</item>
+        <item>@string/material_calendar_wednesday</item>
+        <item>@string/material_calendar_thursday</item>
+        <item>@string/material_calendar_friday</item>
+        <item>@string/material_calendar_saturday</item>
+    </array>
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <array name="query_suggestions">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>SCALA</item>
+        <item>Ruby</item>
+        <item>JavaScript</item>
+    </array>
+</resources>

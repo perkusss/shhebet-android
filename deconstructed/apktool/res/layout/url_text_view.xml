@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="150.0dp" app:cardBackgroundColor="@color/colorTransparentBlack0C" app:cardCornerRadius="@dimen/image_corner_Radius" app:cardElevation="0.0dp" app:contentPadding="2.0dp">
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/header_url_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="151.0dp">
+                <ImageView android:id="@id/url_image" android:visibility="visible" android:layout_width="match_parent" android:layout_height="151.0dp" android:scaleType="centerCrop" android:minWidth="283.0dp" />
+                <ImageView android:layout_gravity="center" android:id="@id/play_icon_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_video_youtube_85dp" />
+                <ImageView android:layout_gravity="end|bottom" android:id="@id/join_icon_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_url_join" />
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/footer_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dp" android:layout_marginTop="6.0dp" android:layout_marginRight="3.0dp" android:layout_below="@id/header_url_view" android:layout_marginStart="3.0dp" android:layout_marginEnd="3.0dp" android:layout_alignStart="@id/header_url_view" android:layout_alignEnd="@id/header_url_view">
+                <androidx.cardview.widget.CardView android:id="@id/url_icon_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/image_corner_Radius">
+                    <ImageView android:id="@id/url_icon" android:layout_width="85.0dp" android:layout_height="85.0dp" android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dp">
+                    <TextView android:textSize="16.0sp" android:textColor="?colorOnSurface" android:id="@id/url_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:maxLines="3" android:fontFamily="@string/font_roboto" style="?android:textViewStyle" />
+                    <TextView android:textSize="14.0sp" android:textColor="?colorOnSurface" android:id="@id/url_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:maxLines="3" android:fontFamily="@string/font_roboto" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/url_event_description_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dp" app:srcCompat="@drawable/ic_baseline_event_note_24dp" />
+                        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="14.0sp" android:textColor="?colorOnSurface" android:id="@id/url_event_start" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/font_roboto" />
+                            <TextView android:textSize="14.0sp" android:textColor="?colorOnSurface" android:id="@id/url_event_end" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/font_roboto" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:layout_marginStart="0.0dp" android:layout_marginEnd="6.0dp">
+                        <TextView android:textSize="14.0sp" android:textColor="?colorOnSurface" android:layout_gravity="start|center" android:id="@id/site_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/font_roboto" />
+                        <Button android:layout_gravity="end|center" android:id="@id/accept_button" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accept" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp" android:id="@id/action_search" android:orderInCategory="1" android:title="@string/action_search" android:actionViewClass="androidx.appcompat.widget.SearchView" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_outline_add_colortoolbarprimarytext_24dp" android:id="@id/create_new_group" android:orderInCategory="2" android:title="@string/create_new_group" app:showAsAction="always" />
+</menu>

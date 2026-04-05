@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:background="?colorSurface" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/app_bar_layout" android:background="?colorSurface" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:layout_behavior="com.nandbox.x.u.FlingBehavior">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="always" app:contentScrim="?colorPrimary" app:expandedTitleMarginBottom="16.0dp" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <com.nandbox.view.util.customViews.nestedScrollView.NestedScrollView android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="300.0dp" android:foregroundGravity="fill" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_collapseMode="parallax">
+                <FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/image" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="300.0dp" android:scaleType="centerCrop" app:layout_collapseMode="parallax" />
+                    <View android:background="@drawable/scrim_top" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="150.0dp" app:layout_collapseMode="pin" />
+                    <github.ankushsachdeva.emojicon.EmojiconTextView android:layout_gravity="bottom" android:id="@id/title_shadow_view" android:background="@drawable/scrim_bottom" android:layout_width="match_parent" android:layout_height="100.0dp" />
+                </FrameLayout>
+            </com.nandbox.view.util.customViews.nestedScrollView.NestedScrollView>
+            <com.google.android.material.appbar.MaterialToolbar android:id="@id/tool_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:popupTheme="@style/Widget.App.PopupMenu.Overflow" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/profile_details_list" android:paddingLeft="@dimen/default_space" android:paddingTop="@dimen/small_space" android:paddingRight="@dimen/default_space" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:choiceMode="singleChoice" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/verified_img" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginRight="80.0dp" app:borderWidth="0.0dp" app:elevation="0.0dp" app:fabCustomSize="24.0dp" app:layout_anchor="@id/app_bar_layout" app:layout_anchorGravity="end|bottom" app:rippleColor="@android:color/transparent" app:srcCompat="@drawable/ic_verified_green_18dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/fab" app:layout_anchor="@id/app_bar_layout" app:layout_anchorGravity="right|bottom" app:srcCompat="@drawable/ic_nav_24_dp" app:theme="@style/ThemeOverlay.AppCompat.Light" style="@style/fab" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

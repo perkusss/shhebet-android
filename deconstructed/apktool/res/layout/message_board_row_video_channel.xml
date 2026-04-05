@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/root_view" android:background="?colorSurfaceContainerLowest" android:paddingTop="@dimen/channel_message_item_padding_top" android:focusable="true" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/body_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/header_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+            <include android:id="@id/header_view_item" android:layout_width="match_parent" android:layout_height="@dimen/channel_header_height" layout="@layout/message_board_header_row_channel" />
+        </LinearLayout>
+        <github.ankushsachdeva.emojicon.EmojiconTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="16.0sp" android:textColor="?colorOnSurface" android:textColorLink="?nand_link_color" android:autoLink="web" android:linksClickable="true" android:layout_gravity="start" android:id="@id/message_board_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp" android:fontFamily="@string/font_roboto" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp" app:emojiconSize="24.0sp" />
+        <FrameLayout android:orientation="vertical" android:id="@id/content_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/message_board_image" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:minWidth="200.0dp" android:minHeight="200.0dp" />
+            <include android:layout_gravity="end|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dp" layout="@layout/message_cycle_sticky_view" />
+            <ImageView android:layout_gravity="center" android:id="@id/message_board_retry_icon" android:visibility="gone" android:layout_width="70.0dp" android:layout_height="70.0dp" />
+            <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:indicatorSize="55.0dp" app:trackColor="@android:color/transparent" app:trackThickness="5.0dp" />
+            <LinearLayout android:gravity="center" android:layout_gravity="end|bottom" android:background="@drawable/white_rounded_bg" android:padding="2.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dp">
+                <TextView android:textSize="@dimen/chat_time_text_size" android:textStyle="normal" android:textColor="?colorOnSurface" android:layout_gravity="center" android:id="@id/message_board_info_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10MB" android:layout_marginStart="3.0dp" android:layout_marginEnd="0.0dp" />
+                <ImageView android:layout_gravity="center" android:visibility="visible" android:layout_width="18.0dp" android:layout_height="18.0dp" app:srcCompat="@drawable/ic_baseline_sd_card_18dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="start|bottom" android:background="@drawable/white_rounded_bg" android:padding="2.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dp">
+                <ImageView android:layout_gravity="center" android:visibility="visible" android:layout_width="18.0dp" android:layout_height="18.0dp" app:srcCompat="@drawable/ic_play_circle_outline_black_18dp" />
+                <TextView android:textSize="@dimen/chat_time_text_size" android:textStyle="normal" android:textColor="?colorOnSurface" android:layout_gravity="center" android:id="@id/message_board_info_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10:00" android:layout_marginStart="0.0dp" android:layout_marginEnd="3.0dp" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.nandbox.view.util.chatMenu.ChatMenuLayout android:id="@id/inline_menu_view" android:background="?colorSurfaceContainerLow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="3.0dp" android:paddingEnd="3.0dp" />
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@id/footer_view_item" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/message_board_footer_row_channel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

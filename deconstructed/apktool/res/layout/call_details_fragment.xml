@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?colorSurface" android:focusable="true" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/toolbar_container" android:background="?nand_colorM3Surface" android:layout_width="0.0px" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/tool_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:popupTheme="@style/Widget.App.PopupMenu.Overflow" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView android:id="@id/scrl_details" android:clipToPadding="false" android:layout_width="0.0px" android:layout_height="0.0px" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_container">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="?colorOnSurface" android:layout_gravity="start|center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="18.0dp" android:text="@string/call_info" android:fontFamily="@string/font_roboto_medium" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dp" android:layout_marginBottom="5.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0sp" android:textColor="?colorOnSurface" android:layout_gravity="start|center" android:id="@id/call_day_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15.0dp" android:text="@string/call_info" android:fontFamily="@string/font_roboto_medium" />
+                    <com.google.android.material.divider.MaterialDivider android:layout_gravity="top" android:background="@drawable/shadow" android:layout_width="match_parent" android:layout_height="1.0dp" app:dividerColor="?colorOutlineVariant" />
+                    <ListView android:scrollbarSize="0.0dp" android:id="@id/call_history_list" android:scrollbars="none" android:animationCache="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dp" android:choiceMode="singleChoice" android:footerDividersEnabled="false" android:smoothScrollbar="false" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

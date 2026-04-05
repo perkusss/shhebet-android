@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_view" android:background="?colorSurface" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/toolbar_container" android:background="?nand_colorM3Surface" android:layout_width="0.0px" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.MaterialToolbar android:id="@id/tool_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:popupTheme="@style/Widget.App.PopupMenu.Overflow" />
+            <com.nandbox.view.util.materialsearchview.MaterialSearchView android:textColor="@color/colorM2OnSurface" android:textColorHint="@color/colorM2OnSurfaceVariant" android:id="@id/search_view" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:layout_marginLeft="4.0dp" android:hint="@string/filter" android:layout_marginStart="4.0dp" app:searchBackIcon="@drawable/ic_outline_arrow_back_colortoolbartext_24dp" app:searchBackground="@color/colorM2ASurface" app:searchCloseIcon="@drawable/ic_close_white_24_dp" />
+            <com.google.android.material.appbar.MaterialToolbar android:id="@id/action_mode_tool_bar" android:background="?nand_toolbar_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/edit_message_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?actionBarSize" layout="@layout/edit_message_toolbar_layout" />
+        </FrameLayout>
+        <com.google.android.material.tabs.TabLayout android:id="@id/chat_tab_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/chat_viewpager" android:layout_width="0.0dp" android:layout_height="0.0dp" android:nestedScrollingEnabled="false" app:layout_constraintBottom_toTopOf="@id/toolbar_container_bottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_container" />
+    <com.google.android.material.appbar.AppBarLayout android:layout_gravity="bottom" android:id="@id/toolbar_container_bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/chat_bottom_navigation" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp" app:itemRippleColor="@null" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

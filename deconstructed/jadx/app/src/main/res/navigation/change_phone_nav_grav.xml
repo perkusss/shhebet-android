@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/change_phone_nav_grav.xml"
+    app:startDestination="@+id/changePhoneConfirmationFragment">
+    <fragment
+        android:label="@string/change_number"
+        android:name="com.nandbox.view.settings.changePhone.ChangePhoneConfirmationFragment"
+        android:id="@+id/changePhoneConfirmationFragment">
+        <action
+            android:id="@+id/action_changePhoneConfirmationFragment_to_changePhoneInputFragment"
+            app:destination="@+id/changePhoneInputFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:label="@string/change_number"
+        android:name="com.nandbox.view.settings.changePhone.ChangePhoneInputFragment"
+        android:id="@+id/changePhoneInputFragment">
+        <action
+            android:id="@+id/action_changePhoneInputFragment_to_changePhoneVerificationFragment"
+            app:destination="@+id/changePhoneVerificationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:label="@string/change_number"
+        android:name="com.nandbox.view.settings.changePhone.ChangePhoneVerificationFragment"
+        android:id="@+id/changePhoneVerificationFragment">
+        <action
+            android:id="@+id/action_changePhoneVerificationFragment_to_changePhoneInputFragment"
+            app:destination="@+id/changePhoneInputFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+</navigation>

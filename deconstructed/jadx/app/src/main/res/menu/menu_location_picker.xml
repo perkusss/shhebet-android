@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp"
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|always"/>
+    <item
+        android:icon="@drawable/ic_refresh_colortoolbarprimarytext_24dp"
+        android:id="@+id/action_add_Address"
+        android:orderInCategory="1"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom"/>
+</menu>

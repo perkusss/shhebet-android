@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="15.0dp" android:width="21.0dp" android:viewportWidth="21.0" android:viewportHeight="15.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$om__0" android:pathData="M0,0h21v15h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$om__1" android:pathData="M0,10h21v5h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$om__2" android:pathData="M0,15l7,0l0,-5l14,0l0,-5l-14,0l0,-5l-7,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$om__3" android:pathData="M3.5,3.5338l-0.8678,1.2681l0.4504,-1.4691l-1.5325,0.1122l1.4294,-0.5638l-1.0432,-1.1282l1.332,0.766l0.2316,-1.519l0.2316,1.519l1.332,-0.766l-1.0432,1.1282l1.4294,0.5638l-1.5325,-0.1122l0.4504,1.4691z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$om__4" android:pathData="M7,0h14v5h-14z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

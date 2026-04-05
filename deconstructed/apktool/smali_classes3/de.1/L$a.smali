@@ -1,0 +1,115 @@
+.class Lde/L$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LI0/I;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lde/L;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Landroid/view/View;
+
+.field final synthetic b:Lde/L;
+
+
+# direct methods
+.method constructor <init>(Lde/L;Landroid/view/View;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lde/L$a;->b:Lde/L;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lde/L$a;->a:Landroid/view/View;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public onApplyWindowInsets(Landroid/view/View;LI0/F0;)LI0/F0;
+    .locals 3
+
+    .line 1
+    invoke-static {}, LI0/F0$n;->e()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    invoke-static {}, LI0/F0$n;->a()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    or-int/2addr p1, v0
+
+    .line 10
+    invoke-virtual {p2, p1}, LI0/F0;->f(I)Ly0/d;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object p1
+
+    .line 14
+    iget p2, p1, Ly0/d;->a:I
+
+    .line 15
+    .line 16
+    iget v0, p1, Ly0/d;->b:I
+
+    .line 17
+    .line 18
+    iget v1, p1, Ly0/d;->c:I
+
+    .line 19
+    .line 20
+    iget p1, p1, Ly0/d;->d:I
+
+    .line 21
+    .line 22
+    iget-object v2, p0, Lde/L$a;->a:Landroid/view/View;
+
+    .line 23
+    .line 24
+    invoke-virtual {v2, p2, v0, v1, p1}, Landroid/view/View;->setPadding(IIII)V
+
+    .line 25
+    .line 26
+    .line 27
+    sget-object p1, LI0/F0;->b:LI0/F0;
+
+    .line 28
+    .line 29
+    return-object p1
+.end method

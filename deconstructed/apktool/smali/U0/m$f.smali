@@ -1,0 +1,351 @@
+.class final LU0/m$f;
+.super Lkotlin/coroutines/jvm/internal/m;
+.source "SourceFile"
+
+# interfaces
+.implements Lyf/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LU0/m;-><init>(Lyf/a;LU0/k;Ljava/util/List;LU0/b;LLf/J;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/m;",
+        "Lyf/p<",
+        "LU0/m$b<",
+        "TT;>;",
+        "Lqf/e<",
+        "-",
+        "Llf/F;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/coroutines/jvm/internal/f;
+    c = "androidx.datastore.core.SingleProcessDataStore$actor$3"
+    f = "SingleProcessDataStore.kt"
+    l = {
+        0xef,
+        0xf2
+    }
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field a:I
+
+.field synthetic b:Ljava/lang/Object;
+
+.field final synthetic c:LU0/m;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LU0/m<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method constructor <init>(LU0/m;Lqf/e;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LU0/m<",
+            "TT;>;",
+            "Lqf/e<",
+            "-",
+            "LU0/m$f;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, LU0/m$f;->c:LU0/m;
+
+    .line 2
+    .line 3
+    const/4 p1, 0x2
+
+    .line 4
+    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/m;-><init>(ILqf/e;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lqf/e;)Lqf/e;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lqf/e<",
+            "*>;)",
+            "Lqf/e<",
+            "Llf/F;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, LU0/m$f;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, LU0/m$f;->c:LU0/m;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1, p2}, LU0/m$f;-><init>(LU0/m;Lqf/e;)V
+
+    .line 6
+    .line 7
+    .line 8
+    iput-object p1, v0, LU0/m$f;->b:Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, LU0/m$b;
+
+    .line 2
+    .line 3
+    check-cast p2, Lqf/e;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2}, LU0/m$f;->m(LU0/m$b;Lqf/e;)Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+
+    .line 1
+    invoke-static {}, Lrf/b;->e()Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    iget v1, p0, LU0/m$f;->a:I
+
+    .line 6
+    .line 7
+    const/4 v2, 0x2
+
+    .line 8
+    const/4 v3, 0x1
+
+    .line 9
+    if-eqz v1, :cond_2
+
+    .line 10
+    .line 11
+    if-eq v1, v3, :cond_1
+
+    .line 12
+    .line 13
+    if-ne v1, v2, :cond_0
+
+    .line 14
+    .line 15
+    goto :goto_0
+
+    .line 16
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    .line 17
+    .line 18
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 19
+    .line 20
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 21
+    .line 22
+    .line 23
+    throw p1
+
+    .line 24
+    :cond_1
+    :goto_0
+    invoke-static {p1}, Llf/p;->b(Ljava/lang/Object;)V
+
+    .line 25
+    .line 26
+    .line 27
+    goto :goto_2
+
+    .line 28
+    :cond_2
+    invoke-static {p1}, Llf/p;->b(Ljava/lang/Object;)V
+
+    .line 29
+    .line 30
+    .line 31
+    iget-object p1, p0, LU0/m$f;->b:Ljava/lang/Object;
+
+    .line 32
+    .line 33
+    check-cast p1, LU0/m$b;
+
+    .line 34
+    .line 35
+    instance-of v1, p1, LU0/m$b$a;
+
+    .line 36
+    .line 37
+    if-eqz v1, :cond_3
+
+    .line 38
+    .line 39
+    iget-object v1, p0, LU0/m$f;->c:LU0/m;
+
+    .line 40
+    .line 41
+    check-cast p1, LU0/m$b$a;
+
+    .line 42
+    .line 43
+    iput v3, p0, LU0/m$f;->a:I
+
+    .line 44
+    .line 45
+    invoke-static {v1, p1, p0}, LU0/m;->h(LU0/m;LU0/m$b$a;Lqf/e;)Ljava/lang/Object;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object p1
+
+    .line 49
+    if-ne p1, v0, :cond_4
+
+    .line 50
+    .line 51
+    goto :goto_1
+
+    .line 52
+    :cond_3
+    instance-of v1, p1, LU0/m$b$b;
+
+    .line 53
+    .line 54
+    if-eqz v1, :cond_4
+
+    .line 55
+    .line 56
+    iget-object v1, p0, LU0/m$f;->c:LU0/m;
+
+    .line 57
+    .line 58
+    check-cast p1, LU0/m$b$b;
+
+    .line 59
+    .line 60
+    iput v2, p0, LU0/m$f;->a:I
+
+    .line 61
+    .line 62
+    invoke-static {v1, p1, p0}, LU0/m;->i(LU0/m;LU0/m$b$b;Lqf/e;)Ljava/lang/Object;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object p1
+
+    .line 66
+    if-ne p1, v0, :cond_4
+
+    .line 67
+    .line 68
+    :goto_1
+    return-object v0
+
+    .line 69
+    :cond_4
+    :goto_2
+    sget-object p1, Llf/F;->a:Llf/F;
+
+    .line 70
+    .line 71
+    return-object p1
+.end method
+
+.method public final m(LU0/m$b;Lqf/e;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LU0/m$b<",
+            "TT;>;",
+            "Lqf/e<",
+            "-",
+            "Llf/F;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, LU0/m$f;->create(Ljava/lang/Object;Lqf/e;)Lqf/e;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, LU0/m$f;
+
+    .line 6
+    .line 7
+    sget-object p2, Llf/F;->a:Llf/F;
+
+    .line 8
+    .line 9
+    invoke-virtual {p1, p2}, LU0/m$f;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p1
+
+    .line 13
+    return-object p1
+.end method

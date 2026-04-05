@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingRight="10.0dp" android:paddingBottom="1.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="16.0dp" android:right="26.0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorM3SurfaceDim" />
+        </shape>
+    </item>
+    <item android:left="16.0dp" android:right="26.0dp" android:bottom="1.0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorMPrimaryContainerBright" />
+        </shape>
+    </item>
+    <item android:gravity="left" android:width="16.0dp" android:top="16.0dp" android:bottom="17.0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorMPrimaryContainerBright" />
+        </shape>
+    </item>
+    <item android:gravity="right" android:width="16.0dp" android:top="16.0dp" android:right="10.0dp" android:bottom="17.0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorMPrimaryContainerBright" />
+        </shape>
+    </item>
+    <item android:gravity="left|bottom" android:height="16.0dp" android:width="16.0dp" android:bottom="0.0dp">
+        <vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="14.0" android:viewportHeight="14.0">
+            <path android:fillColor="@color/colorM3SurfaceDim" android:pathData="M 0 0 V 2 A 14 14 0 0 0 14 14 H 16 L 16 0 Z" />
+        </vector>
+    </item>
+    <item android:gravity="left|bottom" android:height="16.0dp" android:width="16.0dp" android:bottom="1.0dp">
+        <vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="14.0" android:viewportHeight="14.0">
+            <path android:fillColor="@color/colorMPrimaryContainerBright" android:pathData="M 0 0 V 2 A 14 14 0 0 0 14 14 H 16 L 16 0 Z" />
+        </vector>
+    </item>
+    <item android:gravity="right|top" android:height="16.0dp" android:width="16.0dp" android:right="10.0dp">
+        <vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="14.0" android:viewportHeight="14.0">
+            <path android:fillColor="@color/colorMPrimaryContainerBright" android:pathData="M 14 16 V 14 A 14 14 0 0 0 2 0 H 0 L 0 16 Z" />
+        </vector>
+    </item>
+    <item android:gravity="left|top" android:height="16.0dp" android:width="16.0dp">
+        <vector android:height="16.0dp" android:width="16.0dp" android:viewportWidth="14.0" android:viewportHeight="14.0">
+            <path android:fillColor="@color/colorMPrimaryContainerBright" android:pathData="M 16 0 H 14 A 14 14 0 0 0 0 14 V 16 L 16 16 Z" />
+        </vector>
+    </item>
+    <item android:gravity="right|bottom" android:height="17.0dp" android:width="23.0dp" android:right="3.0dp" android:bottom="0.0dp">
+        <vector android:height="17.0dp" android:width="23.0dp" android:viewportWidth="23.0" android:viewportHeight="17.0">
+            <path android:fillColor="@color/colorM3SurfaceDim" android:pathData="M 20 13 H 0 V 17 H 20.96 C 22.82 15.944 22.741 14.188 20 13" />
+        </vector>
+    </item>
+    <item android:gravity="right|bottom" android:height="16.0dp" android:width="22.0dp" android:right="4.0dp" android:bottom="1.0dp">
+        <vector android:height="16.0dp" android:width="22.0dp" android:viewportWidth="22.0" android:viewportHeight="16.0">
+            <path android:fillColor="@color/colorMPrimaryContainerBright" android:pathData="M 21.307 12.274 C 18.691 9.772 16 4.067 16 0 L 0 0 L 0 16 L 20 16 C 21.861 16 22.621 14.201 21.326 12.293" />
+        </vector>
+    </item>
+</layer-list>

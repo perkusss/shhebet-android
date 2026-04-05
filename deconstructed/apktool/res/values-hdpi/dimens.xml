@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_sticker_column_width">60.0dp</dimen>
+    <dimen name="sticker_height">56.0dp</dimen>
+    <dimen name="sticker_width">50.0dp</dimen>
+</resources>

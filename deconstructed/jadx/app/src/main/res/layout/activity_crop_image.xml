@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+    <com.isseiaoki.simplecropview.CropImageView xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tool_bar"
+        custom:scv_background_color="#000000"
+        custom:scv_crop_enabled="true"
+        custom:scv_crop_mode="square"
+        custom:scv_frame_color="@color/colorPrimary"
+        custom:scv_frame_stroke_weight="1dp"
+        custom:scv_guide_color="?attr/colorOutlineVariant"
+        custom:scv_guide_show_mode="not_show"
+        custom:scv_guide_stroke_weight="1dp"
+        custom:scv_handle_color="@color/colorPrimary"
+        custom:scv_handle_show_mode="show_always"
+        custom:scv_handle_size="10dp"
+        custom:scv_initial_frame_scale="0"
+        custom:scv_overlay_color="@color/colorTransparentBlack66"
+        custom:scv_touch_padding="16dp"/>
+</RelativeLayout>

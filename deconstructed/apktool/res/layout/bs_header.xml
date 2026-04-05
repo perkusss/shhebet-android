@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:id="@id/top_divider" android:background="@drawable/shape_bottom_sheet_drag" android:layout_width="32.0dp" android:layout_height="4.0dp" android:layout_marginTop="22.0dp" android:layout_marginBottom="22.0dp" style="@style/BottomSheet.TopDivider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bottom_sheet_title_image" android:visibility="gone" style="@style/BottomSheet.Icon" />
+        <TextView android:id="@id/bottom_sheet_title" android:visibility="gone" style="@style/BottomSheet.Title" />
+    </LinearLayout>
+</LinearLayout>

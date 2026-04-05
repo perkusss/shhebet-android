@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="?colorOnSurface" android:id="@id/bottom_sheet_title" android:visibility="gone" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginTop="18.0dp" android:layout_marginBottom="18.0dp" android:text="@string/payment_method" android:fontFamily="@string/font_roboto_medium" android:layout_marginStart="16.0dp" app:layout_constraintBottom_toTopOf="@id/v_separator" app:layout_constraintEnd_toStartOf="@id/bottom_sheet_title_image" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/bottom_sheet_title_image" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_margin="16.0dp" app:layout_constraintBottom_toTopOf="@id/v_separator" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.divider.MaterialDivider android:id="@id/v_separator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0dp" app:dividerColor="?colorOutlineVariant" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

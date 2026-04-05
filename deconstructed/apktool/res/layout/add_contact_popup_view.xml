@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:id="@id/create_group_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginBottom="8.0dp" android:text="@string/add_contact" android:fontFamily="@string/font_roboto_medium" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_by_email" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="96.0dp" android:layout_marginBottom="6.0dp" android:layout_below="@id/create_group_title">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp" app:srcCompat="@drawable/ic_baseline_email_black_18dp" />
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/by_email" android:fontFamily="@string/font_roboto_medium" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnSurfaceVariant" android:id="@id/txt_add_by_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_by_email" android:fontFamily="@string/font_roboto" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_by_phone" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="96.0dp" android:layout_below="@id/ll_by_email">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:layout_marginStart="24.0dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp" app:srcCompat="@drawable/ic_baseline_phone_black_18dp" />
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/by_phone_number" android:fontFamily="@string/font_roboto_medium" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnSurfaceVariant" android:id="@id/txt_add_by_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_by_phone" android:fontFamily="@string/font_roboto" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    </LinearLayout>
+</RelativeLayout>

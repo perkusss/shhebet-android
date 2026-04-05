@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_chat" android:orderInCategory="100" android:title="@string/action_chat" app:showAsAction="never" />
+    <item android:id="@id/action_call" android:orderInCategory="100" android:title="@string/action_call" app:showAsAction="never" />
+    <item android:id="@id/action_video_call" android:orderInCategory="100" android:title="@string/action_video_call" app:showAsAction="never" />
+    <item android:id="@id/action_mark_favorite" android:orderInCategory="100" android:title="@string/action_mark_favorite" app:showAsAction="never" />
+    <item android:id="@id/action_send_email" android:orderInCategory="100" android:title="@string/action_send_email" app:showAsAction="never" />
+    <item android:id="@id/action_block" android:orderInCategory="100" android:title="@string/action_block" app:showAsAction="never" />
+    <item android:id="@id/action_change_relationship" android:orderInCategory="100" android:title="@string/action_change_relationship" app:showAsAction="never" />
+</menu>

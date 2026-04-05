@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="pref_headers">
+    <Preference
+        android:icon="@drawable/ic_help_24dp"
+        android:title="@string/settings_help"
+        android:fragment="com.nandbox.view.settings.fragments.SettingsHelpFragment"/>
+    <Preference
+        android:icon="@drawable/ic_baseline_vpn_key_24dp"
+        android:title="@string/settings_account"
+        android:fragment="com.nandbox.view.settings.fragments.SettingsAccountFragment"/>
+    <Preference
+        android:icon="@drawable/ic_chats_24dp"
+        android:title="@string/chat_settings"
+        android:fragment="com.nandbox.view.settings.fragments.SettingsChatsFragment"/>
+    <Preference
+        android:icon="@drawable/ic_baseline_phone_24dp"
+        android:title="@string/calls"
+        android:key="pref_header_call_settings"/>
+    <Preference
+        android:icon="@drawable/ic_perm_media_24dp"
+        android:title="@string/settings_media_auto_download"
+        android:fragment="com.nandbox.view.settings.fragments.SettingsMediaAutoDownloadFragment"/>
+    <Preference
+        android:icon="@drawable/ic_baseline_notifications_24dp"
+        android:title="@string/settings_notifications"
+        android:key="pref_header_notifications"
+        android:fragment="com.nandbox.view.settings.fragments.SettingsNotificationsFragment"/>
+    <Preference
+        android:icon="@drawable/ic_baseline_notifications_24dp"
+        android:title="@string/settings_notifications"
+        android:key="pref_header_oreo_notifications"/>
+    <Preference
+        android:icon="@drawable/ic_bot_24dp"
+        android:title="@string/bot_manager"
+        android:key="pref_header_bots_manager"/>
+    <Preference
+        android:icon="@drawable/ic_storage_24dp"
+        android:title="@string/manage_storage"
+        android:key="pref_header_storage_manager"/>
+    <Preference
+        android:icon="@drawable/ic_theme_24dp"
+        android:title="@string/theme"
+        android:key="pref_header_theme"
+        android:fragment="com.nandbox.view.settings.fragments.SettingsThemeFragment"/>
+</PreferenceScreen>

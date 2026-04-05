@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_open_store" android:layout_width="216.0dp" android:layout_height="138.0dp" app:srcCompat="@drawable/stickersplaceholder" />
+            <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/btn_action" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="66.0dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

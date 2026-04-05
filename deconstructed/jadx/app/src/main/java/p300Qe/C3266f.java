@@ -1,0 +1,9 @@
+package p300Qe;
+
+/* JADX INFO: renamed from: Qe.f */
+/* JADX INFO: loaded from: classes3.dex */
+public final class C3266f extends IllegalStateException {
+    public C3266f(Throwable th) {
+        super("The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | " + th.getMessage(), th);
+    }
+}

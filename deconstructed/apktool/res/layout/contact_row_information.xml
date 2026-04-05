@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?selectableItemBackground" android:focusable="false" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:emojicon="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/image_container" android:background="?selectableItemBackgroundBorderless" android:paddingTop="11.0dp" android:paddingBottom="11.0dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="16.0dp" android:paddingEnd="14.0dp" android:layout_alignParentStart="true">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@id/contact_icon" android:layout_width="54.0dp" android:layout_height="54.0dp" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/profile_details_views" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/invite_favorite_views" android:layout_toEndOf="@id/image_container">
+            <LinearLayout android:orientation="horizontal" android:id="@id/profile_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?colorOnSurface" android:ellipsize="end" android:gravity="start" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mike Cryst John Mik" android:lines="1" android:textDirection="firstStrong" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/chat_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                <github.ankushsachdeva.emojicon.EmojiconTextView android:textSize="14.0sp" android:textColor="?colorOnSurfaceVariant" android:id="@id/quote_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="hi all" android:singleLine="true" android:textDirection="firstStrong" android:layout_marginEnd="4.0dp" emojicon:emojiconSize="16.0sp" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/invite_favorite_views" android:layout_width="66.0dp" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="66.0dp" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="?colorOnSurfaceVariant" android:gravity="center" android:layout_gravity="center" android:id="@id/profile_relationship" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:text="Family" android:layout_centerHorizontal="true" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center" android:id="@id/favorite_image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" emojicon:srcCompat="@drawable/ic_star_yellow_18dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="?colorOnPrimaryContainer" android:layout_gravity="center" android:id="@id/new_text" android:background="@drawable/curved_primary_container_button" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_text" android:paddingStart="6.0dp" android:paddingEnd="6.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/invite_text" android:background="@drawable/small_curved_green_button" android:visibility="gone" android:clickable="true" android:duplicateParentState="true" android:layout_width="66.0dp" android:layout_height="36.0dp" android:text="@string/invite" />
+        </FrameLayout>
+        <com.google.android.material.divider.MaterialDivider android:id="@id/item_divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/image_container" android:layout_toEndOf="@id/image_container" />
+    </RelativeLayout>
+</FrameLayout>

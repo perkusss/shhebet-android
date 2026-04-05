@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tool_bar" layout="@layout/tool_bar" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/barcode_view" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tool_bar">
+        <RelativeLayout android:id="@id/barcode_scanner_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.journeyapps.barcodescanner.CompoundBarcodeView android:id="@id/barcode_scanner" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="289.0dp" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/barcode_scanner_view">
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/account_qr_code_tv" android:clickable="false" android:layout_width="289.0dp" android:layout_height="wrap_content" android:text="@string/scan_account_qr_code" android:layout_centerInParent="true" android:fontFamily="@string/font_roboto" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

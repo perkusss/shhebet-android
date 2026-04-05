@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/menu_message">
+        <item
+            android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp"
+            android:id="@+id/message_action_search"
+            android:orderInCategory="1"
+            android:title="@string/action_search"
+            app:showAsAction="always"/>
+        <item
+            android:icon="@drawable/ic_outline_add_colortoolbarprimarytext_24dp"
+            android:id="@+id/message_create_new_group"
+            android:orderInCategory="2"
+            android:title="@string/create_new_group"
+            app:showAsAction="always"/>
+    </group>
+    <group android:id="@+id/menu_contact">
+        <item
+            android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp"
+            android:id="@+id/contact_action_search"
+            android:orderInCategory="1"
+            android:title="@string/action_search"
+            app:showAsAction="always"/>
+        <item
+            android:icon="@drawable/ic_outline_add_colortoolbarprimarytext_24dp"
+            android:id="@+id/add_contact"
+            android:orderInCategory="2"
+            android:title="@string/add"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/refresh_contacts"
+            android:orderInCategory="3"
+            android:title="@string/refresh_contacts"
+            app:showAsAction="never"/>
+    </group>
+    <group android:id="@+id/menu_group">
+        <item
+            android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp"
+            android:id="@+id/group_action_search"
+            android:orderInCategory="1"
+            android:title="@string/action_search"
+            app:showAsAction="always"/>
+        <item
+            android:icon="@drawable/ic_outline_add_colortoolbarprimarytext_24dp"
+            android:id="@+id/create_new_group"
+            android:orderInCategory="2"
+            android:title="@string/create_new_group"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/refresh_groups"
+            android:orderInCategory="3"
+            android:title="@string/refresh_contacts"
+            app:showAsAction="never"/>
+    </group>
+    <group android:id="@+id/menu_channel">
+        <item
+            android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp"
+            android:id="@+id/channel_action_search"
+            android:orderInCategory="1"
+            android:title="@string/action_search"
+            app:showAsAction="always"/>
+        <item
+            android:icon="@drawable/ic_outline_add_colortoolbarprimarytext_24dp"
+            android:id="@+id/create_channel"
+            android:orderInCategory="2"
+            android:title="@string/create_channel"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/refresh_channels"
+            android:orderInCategory="3"
+            android:title="@string/refresh_contacts"
+            app:showAsAction="never"/>
+    </group>
+    <group android:id="@+id/menu_v_apps">
+        <item
+            android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp"
+            android:id="@+id/v_apps_action_search"
+            android:orderInCategory="1"
+            android:title="@string/action_search"
+            app:showAsAction="always"/>
+        <item
+            android:icon="@drawable/ic_outline_add_colortoolbarprimarytext_24dp"
+            android:id="@+id/create_v_app"
+            android:orderInCategory="2"
+            android:title="@string/create_channel"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/refresh_v_apps"
+            android:orderInCategory="3"
+            android:title="@string/refresh_contacts"
+            app:showAsAction="never"/>
+    </group>
+    <group android:id="@+id/menu_invitation">
+        <item
+            android:id="@+id/action_delete_all"
+            android:orderInCategory="2"
+            android:title="@string/delete_all"
+            app:showAsAction="never"/>
+    </group>
+    <group android:id="@+id/menu_qrcode">
+        <item
+            android:id="@+id/send_by_mail_action"
+            android:orderInCategory="1"
+            android:title="@string/send_by_mail"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/save_to_gallery_action"
+            android:orderInCategory="2"
+            android:title="@string/save_to_gallery"
+            app:showAsAction="never"/>
+        <item
+            android:icon="@drawable/ic_baseline_share_colortoolbarprimarytext_24dp"
+            android:id="@+id/share"
+            android:orderInCategory="2"
+            android:title="@string/share"
+            app:showAsAction="always"/>
+    </group>
+    <group android:id="@+id/menu_call_details">
+        <item
+            android:icon="@drawable/ic_baseline_phone_colortoolbarprimarytext_24dp"
+            android:id="@+id/call_details_action_call"
+            android:orderInCategory="2"
+            android:title="@string/call"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:icon="@drawable/ic_baseline_videocam_colortoolbarprimarytext_24dp"
+            android:id="@+id/call_details_action_video_call"
+            android:orderInCategory="2"
+            android:title="@string/video"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:icon="@drawable/ic_baseline_delete_colortoolbarprimarytext_24dp"
+            android:id="@+id/action_delete_call_log"
+            android:orderInCategory="11"
+            android:title="@string/delete_call_log"
+            app:showAsAction="never"/>
+    </group>
+    <group android:id="@+id/menu_search">
+        <item
+            android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp"
+            android:id="@+id/search_action_search"
+            android:orderInCategory="1"
+            android:title="@string/action_search"
+            android:actionViewClass="androidx.appcompat.widget.SearchView"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            app:showAsAction="always"/>
+    </group>
+    <group android:id="@+id/menu_search_more"/>
+    <group android:id="@+id/menu_events"/>
+    <group android:id="@+id/menu_booking"/>
+    <group android:id="@+id/menu_booking_list"/>
+    <group android:id="@+id/show_video"/>
+    <group android:id="@+id/search_tap"/>
+    <group android:id="@+id/menu_package_list">
+        <item
+            android:icon="@drawable/ic_baseline_delete_24dp"
+            android:id="@+id/action_refresh_store"
+            android:orderInCategory="1"
+            android:title="@string/delete_all"
+            app:showAsAction="never"/>
+    </group>
+    <group android:id="@+id/menu_qr_actions"/>
+    <group android:id="@+id/menu_widget_chat">
+        <item
+            android:icon="@drawable/ic_share_white_24dp"
+            android:id="@+id/action_share"
+            android:orderInCategory="1"
+            android:title="@string/share"
+            app:showAsAction="ifRoom"/>
+    </group>
+    <group android:id="@+id/menu_collection">
+        <item
+            android:icon="@drawable/ic_cart_empty_colortoolbarprimarytext_24dp"
+            android:id="@+id/action_open_cart"
+            android:orderInCategory="1"
+            android:title="@string/open_cart"
+            app:iconTint="@null"
+            app:showAsAction="ifRoom"/>
+    </group>
+    <group android:id="@+id/menu_location_picker">
+        <item
+            android:icon="@drawable/ic_search_colortoolbarprimarytext_24dp"
+            android:id="@+id/location_picker_action_search"
+            android:title="@string/search"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:icon="@drawable/ic_refresh_colortoolbarprimarytext_24dp"
+            android:id="@+id/location_picker_action_refresh"
+            android:orderInCategory="1"
+            android:title="@string/refresh"
+            app:showAsAction="ifRoom"/>
+    </group>
+    <group android:id="@+id/menu_store_product">
+        <item
+            android:icon="@drawable/ic_baseline_edit_colortoolbarprimarytext_24dp"
+            android:id="@+id/action_edit_product"
+            android:visible="false"
+            android:title="@string/edit"
+            app:showAsAction="ifRoom"/>
+    </group>
+    <group android:id="@+id/menu_create_product">
+        <item
+            android:id="@+id/action_save_product"
+            android:title="@string/create"
+            app:showAsAction="ifRoom"/>
+    </group>
+    <group android:id="@+id/menu_set_hours">
+        <item
+            android:id="@+id/action_save_hours"
+            android:title="@string/create"
+            app:showAsAction="ifRoom"/>
+    </group>
+</menu>

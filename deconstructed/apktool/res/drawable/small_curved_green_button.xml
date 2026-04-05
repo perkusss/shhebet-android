@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/curved_gray_button" />
+    <item>
+        <shape>
+            <gradient android:startColor="?colorPrimary" android:endColor="?colorPrimary" android:angle="0.0" />
+            <corners android:radius="3.0dp" />
+        </shape>
+    </item>
+</selector>

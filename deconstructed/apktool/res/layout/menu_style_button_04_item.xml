@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4.0dp" app:cardBackgroundColor="@android:color/transparent" app:cardElevation="0.0dp" app:contentPadding="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/main_view" android:layout_width="match_parent" android:layout_height="56.0dp" android:text="@string/back" style="@style/Widget.Material3.Button.ElevatedButton" />
+    <TextView android:textSize="12.0sp" android:textColor="?colorOnError" android:gravity="center" android:layout_gravity="end|top" android:id="@id/unread_count_text" android:background="@drawable/circle_red_bg" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dp" android:minWidth="25.0dp" android:fontFamily="sans-serif-medium" android:paddingStart="6.0dp" android:paddingEnd="6.0dp" />
+</androidx.cardview.widget.CardView>

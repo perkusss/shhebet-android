@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?colorSurface" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="14.0sp" android:textStyle="normal" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/txt_search" android:background="?colorSurface" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="4.0dp" android:hint="@string/search" android:lines="1" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" android:fontFamily="@string/font_roboto" android:layout_toStartOf="@id/img_close" android:layout_alignParentStart="true" app:drawableStartCompat="@drawable/ic_search_gray_24dp" />
+    <Button android:enabled="false" android:id="@id/img_close" android:background="@drawable/custom_search_view_search_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_margin="2.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

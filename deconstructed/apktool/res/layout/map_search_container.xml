@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:tag="layout/map_search_container_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="binding_1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/fragment_map_search" layout="@layout/fragment_map_search" />
+        <include android:id="@id/map_search_bottom_sheet" layout="@layout/map_search_result_bottom_sheet" />
+        <ImageView android:id="@id/back_bottomSheet" android:tag="binding_2" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginStart="10.0dp" app:srcCompat="@drawable/ic_back_on_map" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include android:id="@id/nearby_bottom_sheet" layout="@layout/layout_nearby_markers_list_dialog" />
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

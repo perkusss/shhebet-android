@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="93dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+            android:id="@+id/img_icon"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            app:srcCompat="@drawable/ic_contact_130dp"/>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/img_type"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            app:srcCompat="@drawable/ic_invitation_channel_16dp"/>
+        <github.ankushsachdeva.emojicon.EmojiconTextView
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="?attr/colorOnSurface"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mike Cryst"
+            android:lines="1"
+            android:fontFamily="@string/font_roboto_medium"
+            android:textDirection="firstStrong"
+            android:layout_marginStart="3dp"/>
+    </LinearLayout>
+    <github.ankushsachdeva.emojicon.EmojiconTextView
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Some description"
+        android:lines="1"
+        android:fontFamily="@string/font_roboto"
+        android:textDirection="firstStrong"/>
+</LinearLayout>

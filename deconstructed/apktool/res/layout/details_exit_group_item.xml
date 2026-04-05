@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/exit_group_card" android:paddingTop="@dimen/list_item_padding" android:paddingBottom="16.0dp" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/exit_group_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+        <Button android:textColor="?colorOnError" android:id="@id/exit_group_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/leave_x" android:backgroundTint="?colorError" />
+    </LinearLayout>
+</LinearLayout>

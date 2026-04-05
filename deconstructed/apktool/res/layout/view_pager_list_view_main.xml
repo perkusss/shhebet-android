@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?colorSurface" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/default_list" android:background="?colorSurface" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:choiceMode="singleChoice" android:layout_alignParentBottom="true" android:splitMotionEvents="false" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_space" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="?colorOnSurface" android:gravity="center" android:id="@id/no_message_title" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:fontFamily="@string/font_roboto_medium" />
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnSurfaceVariant" android:gravity="center" android:id="@id/no_message_desc" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:fontFamily="@string/font_roboto" />
+    </LinearLayout>
+</RelativeLayout>

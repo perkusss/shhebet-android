@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:background="@drawable/bg_inline_reply_outgoing_bg" app:cardElevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/v_inline_reply_left" android:background="@color/colorMOnPrimaryContainer" android:layout_width="3.0dp" android:layout_height="match_parent" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <github.ankushsachdeva.emojicon.EmojiconTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="14.0sp" android:textStyle="bold" android:textColor="?colorPrimary" android:ellipsize="end" android:gravity="start" android:id="@id/txt_reply_profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="Someone" android:lines="1" android:layout_alignParentTop="true" android:fontFamily="@string/font_roboto" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" android:layout_toEndOf="@id/img_media" app:emojiconSize="14.0sp" />
+            <ImageView android:id="@id/img_media" android:background="@drawable/round_outline_3dp" android:layout_width="@dimen/inline_reply_img_width" android:layout_height="@dimen/inline_reply_img_width" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_marginEnd="4.0dp" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp" android:layout_below="@id/txt_reply_profile_name" android:layout_alignStart="@id/txt_reply_profile_name">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/img_reply_ico" android:layout_width="16.0dp" android:layout_height="16.0dp" app:srcCompat="@drawable/ic_photo_colorsecondarytext_16dp" />
+                <github.ankushsachdeva.emojicon.EmojiconTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="14.0sp" android:textColor="?colorOnSurfaceVariant" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/txt_reply_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dp" android:text="Caption" android:lines="1" android:fontFamily="@string/font_roboto" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" app:emojiconSize="14.0sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frm_root"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.media3.p469ui.PlayerView
+        android:id="@+id/player_view"
+        android:background="@android:color/black"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        app:controller_layout_id="@layout/video_player_fullscreen_controller_layout"
+        app:repeat_toggle_modes="all"
+        app:resize_mode="fit"
+        app:show_buffering="never"
+        app:surface_type="texture_view"
+        app:use_controller="true"/>
+    <ImageView
+        android:layout_gravity="start|top"
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_close_white_48dp"/>
+</FrameLayout>

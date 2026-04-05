@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="pref_screen_in_app_billing">
+    <Preference
+        android:title="In App Billing"
+        android:key="pref_in_app_billing">
+        <intent
+            android:targetPackage="@string/app_id"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.nandbox.inappbilling.billingmodule.billingsample.TrivialDriveActivity"/>
+    </Preference>
+</PreferenceScreen>

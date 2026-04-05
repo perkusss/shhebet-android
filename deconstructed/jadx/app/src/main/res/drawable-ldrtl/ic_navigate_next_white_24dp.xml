@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="?attr/nand_toolbar_textColorPrimary"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M14.59,6 L16,7.41 11.42,12 16,16.59 14.59,18l-6,-6z"
+        android:fillType="nonZero"/>
+</vector>

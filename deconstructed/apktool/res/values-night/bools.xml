@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="lightBottomNavigationBar">false</bool>
+    <bool name="lightBottomStatusBar">true</bool>
+    <bool name="lightStatusBar">false</bool>
+</resources>

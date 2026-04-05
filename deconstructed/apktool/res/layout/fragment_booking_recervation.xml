@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#f9faf4" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/id_appbar" android:background="?nand_colorM3Surface" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/tool_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:popupTheme="@style/Widget.App.PopupMenu.Overflow" app:title="@string/booking_reservation" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/id_appbar">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15.0dp">
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_ticket_header" android:background="@drawable/ticket_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/fl_details_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="14.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+                        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/image" android:layout_width="56.0dp" android:layout_height="56.0dp" android:scaleType="centerCrop" app:srcCompat="@drawable/ic_event_100dp" />
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#000000" android:ellipsize="end" android:id="@id/txt_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Diane Munoz Wedding" android:fontFamily="@string/font_roboto" android:textDirection="locale" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" android:layout_toEndOf="@id/image" />
+                        <TextView android:textSize="14.0sp" android:textColor="#000000" android:ellipsize="end" android:id="@id/txt_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="Apply online now from anywhere" android:layout_below="@id/txt_name" android:fontFamily="@string/font_roboto" android:textDirection="locale" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" android:layout_toEndOf="@id/image" />
+                    </RelativeLayout>
+                    <RelativeLayout android:background="#d2d9df" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <TextView android:textSize="16.0sp" android:textColor="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:layout_marginBottom="32.0dp" android:text="@string/one_hour_alert" android:layout_centerVertical="true" android:fontFamily="@string/font_roboto" android:layout_marginStart="16.0dp" android:layout_toStartOf="@id/img_timer" />
+                        <ImageView android:id="@id/img_timer" android:layout_width="75.0dp" android:layout_height="75.0dp" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_booking_timer_75dp" />
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0sp" android:textColor="#424940" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/date_colon" android:fontFamily="@string/font_roboto" android:layout_marginStart="8.0dp" />
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#000000" android:id="@id/txt_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="Tuesday, February 5, 2019" android:fontFamily="@string/font_roboto" android:layout_marginStart="8.0dp" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp">
+                        <TextView android:textSize="14.0sp" android:textColor="#424940" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/time_colon" android:layout_weight="1.0" android:fontFamily="@string/font_roboto" />
+                        <TextView android:textSize="14.0sp" android:textColor="#424940" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/tickets_colon" android:layout_weight="1.0" android:fontFamily="@string/font_roboto" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp">
+                        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#000000" android:id="@id/txt_time" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="12:00 PM" android:layout_weight="1.0" android:fontFamily="@string/font_roboto" />
+                        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#000000" android:id="@id/txt_tickets" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="2" android:layout_weight="1.0" android:fontFamily="@string/font_roboto" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_amount_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginStart="8.0dp">
+                        <TextView android:textSize="14.0sp" android:textColor="#424940" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_amount" android:fontFamily="@string/font_roboto" />
+                        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#000000" android:id="@id/txt_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="750 EGP" android:fontFamily="@string/font_roboto" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_ticket_bottom" android:background="@drawable/ticket_bott" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="top" android:background="@drawable/dotted_line" android:layout_width="match_parent" android:layout_height="5.0dp" android:layerType="software" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcy_barcode" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:nestedScrollingEnabled="true" />
+                    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/fl_tickets_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                        <TextView android:textSize="14.0sp" android:textColor="#000000" android:gravity="center_vertical" android:id="@id/txt_ticket_index" android:layout_width="match_parent" android:layout_height="match_parent" android:text="1/2" android:fontFamily="@string/font_roboto_medium" android:layout_marginEnd="2.0dp" />
+                        <ImageView android:gravity="center_vertical" android:id="@id/img_before" android:layout_width="18.0dp" android:layout_height="18.0dp" app:srcCompat="@drawable/ic_arrow_forward_18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Button android:id="@id/btn_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/cancel" style="?materialButtonOutlinedStyle" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout android:id="@id/frm_loading" android:background="#ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_space">
+                <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center_horizontal" android:id="@id/spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="29.0dp" app:indicatorSize="50.0dp" app:trackColor="@android:color/transparent" app:trackThickness="5.0dp" />
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_no_items" android:visibility="gone" android:layout_width="66.0dp" android:layout_height="66.0dp" />
+                <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#000000" android:gravity="center" android:id="@id/no_message_title" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:fontFamily="@string/font_roboto_medium" />
+                <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#424940" android:gravity="center" android:id="@id/no_message_desc" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:fontFamily="@string/font_roboto" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

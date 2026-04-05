@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="10.0dp" android:paddingEnd="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/custom_list_view_row_table_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="false">
+        <TableRow android:gravity="center_vertical" android:id="@id/custom_list_view_row_table_row" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:layout_gravity="start" android:id="@id/custom_list_view_row_checkbox_button" android:layout_width="wrap_content" android:checked="false" />
+            <TextView android:textColor="?colorOnSurface" android:layout_gravity="start|center" android:id="@id/custom_list_view_row_text_view" android:layout_width="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

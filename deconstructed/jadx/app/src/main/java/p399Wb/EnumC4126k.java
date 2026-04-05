@@ -1,0 +1,28 @@
+package p399Wb;
+
+/* JADX INFO: renamed from: Wb.k */
+/* JADX INFO: loaded from: classes3.dex */
+public enum EnumC4126k {
+    TEXT_ITEM,
+    STICKER_ITEM,
+    IMAGE_ITEM,
+    IMAGE_STYLE_1_ITEM,
+    IMAGE_STYLE_2_ITEM,
+    VIDEO_ITEM,
+    AUDIO_ITEM,
+    FILE_ITEM,
+    CONTACT_ITEM,
+    MAP_ITEM,
+    DATE_ITEM,
+    GIF_ITEM,
+    CHANNEL_REPLIES_LIST_ITEM,
+    REPLY_HINT_ITEM,
+    GROUP_NOTIFICATION_ITEM,
+    UNREAD_ITEM,
+    CALL_ITEM,
+    LAST_MESSAGE_ITEM,
+    CARD_MESSAGE_ITEM,
+    EARNS_MESSAGE_ITEM,
+    ARTICLE_ITEM,
+    CALENDAR_ITEM
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/img_chat" android:layout_width="36.0dp" android:layout_height="36.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:layout_marginStart="12.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0sp" android:textColor="?nand_toolbar_textColorPrimary" android:id="@id/txt_chat_name" android:layout_width="0.0px" android:layout_height="wrap_content" android:fontFamily="@string/font_roboto_medium" android:layout_marginStart="8.0dp" app:layout_constraintStart_toEndOf="@id/img_chat" app:layout_constraintTop_toTopOf="@id/img_chat" />
+    <TextView android:textSize="12.0sp" android:textColor="?nand_toolbar_textColorPrimary" android:id="@id/txt_size" android:layout_width="0.0px" android:layout_height="wrap_content" android:fontFamily="@string/font_roboto" android:layout_marginStart="8.0dp" app:layout_constraintStart_toEndOf="@id/img_chat" app:layout_constraintTop_toBottomOf="@id/txt_chat_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

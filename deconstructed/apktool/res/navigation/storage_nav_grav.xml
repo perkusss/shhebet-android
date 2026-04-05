@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/storage_nav_grav" app:startDestination="@id/chatsStorageFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="storage_chat_fragment" android:name="com.nandbox.view.storageManager.chats.ChatsStorageFragment" android:id="@id/chatsStorageFragment">
+        <action android:id="@id/action_chatsStorageFragment_to_chatStorageFragment" app:destination="@id/chatStorageFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="fragment_storage_chat" android:name="com.nandbox.view.storageManager.chat.ChatStorageFragment" android:id="@id/chatStorageFragment">
+        <action android:id="@id/action_chatStorageFragment_to_mediaStorageFragment" app:destination="@id/mediaStorageFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="fragment_media_storage" android:name="com.nandbox.view.storageManager.media.MediaStorageFragment" android:id="@id/mediaStorageFragment" />
+</navigation>

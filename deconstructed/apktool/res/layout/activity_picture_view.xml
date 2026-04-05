@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textColor="@android:color/black" android:orientation="vertical" android:id="@id/drawer_layout_picture_view" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gesture-image="http://schemas.polites.com/android">
+    <include android:id="@id/tool_bar" layout="@layout/tool_bar_black" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.github.chrisbanes.photoview.PhotoView android:id="@id/zoom_picture_view" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" gesture-image:max-scale="10.0" gesture-image:min-scale="0.75" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" style="?android:progressBarStyleLarge" />
+        <ProgressBar android:layout_gravity="center|bottom" android:id="@id/downloadProgressBar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_unit" android:max="100" android:indeterminate="false" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+</LinearLayout>
